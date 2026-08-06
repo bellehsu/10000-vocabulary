@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>頁碼篩選測試</title>
+<style>
+:root{font-family:system-ui,-apple-system,"Noto Sans TC",sans-serif;color:#17202a;background:#f4f7f6;line-height:1.5}*{box-sizing:border-box}body{margin:0}.top{position:sticky;top:0;background:#0f766e;color:#fff;padding:14px 16px;z-index:5}.top h1{margin:0;font-size:20px}.top small{opacity:.85}main{max-width:880px;margin:auto;padding:16px}.panel,.card{background:#fff;border-radius:16px;box-shadow:0 4px 18px #0000000d;padding:16px;margin-bottom:14px}.filters{display:grid;grid-template-columns:1fr 1fr 2fr;gap:8px}select,input,button{font:inherit}select,input{width:100%;padding:10px;border:1px solid #ccd7d4;border-radius:10px;background:#fff}.status{font-size:14px;color:#52635e;margin-bottom:10px}.row{display:grid;grid-template-columns:1fr auto;gap:10px;padding:14px 0;border-bottom:1px solid #edf1f0}.row:last-child{border:0}.word{font-size:21px;font-weight:800;color:#0f766e}.pos{font-size:13px;color:#65736f;font-style:italic}.zh{margin-top:4px}.meta{font-size:13px;color:#65736f;margin-top:4px}.small{border:1px solid #b9cbc6;background:#fff;border-radius:9px;padding:7px 10px;cursor:pointer}.empty{padding:20px;text-align:center;color:#65736f}@media(max-width:700px){.filters{grid-template-columns:1fr 1fr}.filters input{grid-column:1/-1}.row{grid-template-columns:1fr}.small{justify-self:start}}
+</style>
+</head>
+<body>
+<header class="top"><h1>頁碼篩選測試</h1><small>分離 page / page_end，並使用頁碼區間＋單頁選擇</small></header>
+<main>
+<section class="panel filters">
+<select id="range"><option value="">全部頁碼區間</option></select>
+<select id="page"><option value="">區間內全部頁碼</option></select>
+<input id="search" placeholder="搜尋英文、中文或例句">
+</section>
+<section class="panel"><div id="status" class="status">載入中…</div><div id="list"></div></section>
+</main>
+<script>
+const DATA_URL='data/vocabulary-pages-12-15.csv?v=page-filter-1';
+const $=s=>document.querySelector(s);
+let words=[];
+function csv(text){const rows=[];let row=[],v='',quoted=false;for(let i=0;i<text.length;i++){const c=text[i],n=text[i+1];if(c==='"'&&quoted&&n==='"'){v+='"';i++}else if(c==='"'){quoted=!quoted}else if(c===','&&!quoted){row.push(v);v=''}else if((c==='\n'||c==='\r')&&!quoted){if(c==='\r'&&n==='\n')i++;row.push(v);if(row.some(x=>x!==''))rows.push(row);row=[];v=''}else v+=c}if(v||row.length){row.push(v);rows.push(row)}const headers=rows.shift().map(h=>h.replace(/^\uFEFF/,'').trim());return rows.map(r=>Object.fromEntries(headers.map((h,i)=>[h,(r[i]??'').trim()]))) }
+function startPage(w){return Number(w.page)||0}
+function endPage(w){return Number(w.page_end)||startPage(w)}
+function includesPage(w,p){return p>=startPage(w)&&p<=endPage(w)}
+function pageLabel(w){return w.page_end?`${w.page}–${w.page_end}`:w.page}
+function stars(n){const x=Math.max(0,Math.min(5,Number(n)||0));return `${'★'.repeat(x)}${'☆'.repeat(5-x)}`}
+function speak(word){speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(word);u.lang='en-US';speechSynthesis.speak(u)}
+function ranges(){const nums=words.flatMap(w=>[startPage(w),endPage(w)]).filter(Boolean);const min=Math.min(...nums),max=Math.max(...nums);const first=Math.floor((min-1)/50)*50+1;const result=[];for(let s=first;s<=max;s+=50)result.push([s,s+49]);return result}
+function fillRanges(){for(const [a,b] of ranges())$('#range').insertAdjacentHTML('beforeend',`<option value="${a}-${b}">${a}–${b}</option>`);updatePages()}
+function updatePages(){const value=$('#range').value;const page=$('#page');page.innerHTML='<option value="">區間內全部頁碼</option>';let available=[...new Set(words.flatMap(w=>{const out=[];for(let p=startPage(w);p<=endPage(w);p++)out.push(p);return out}))].sort((a,b)=>a-b);if(value){const [a,b]=value.split('-').map(Number);available=available.filter(p=>p>=a&&p<=b)}for(const p of available)page.insertAdjacentHTML('beforeend',`<option value="${p}">${p}</option>`);render()}
+function render(){const q=$('#search').value.trim().toLowerCase();const range=$('#range').value;const selected=Number($('#page').value)||0;let list=words.filter(w=>!q||[w.word,w.chinese,w.example,w.example_zh].join(' ').toLowerCase().includes(q));if(range){const [a,b]=range.split('-').map(Number);list=list.filter(w=>endPage(w)>=a&&startPage(w)<=b)}if(selected)list=list.filter(w=>includesPage(w,selected));$('#status').textContent=`已載入 ${words.length} 筆，目前顯示 ${list.length} 筆。跨頁單字會同時出現在起始頁與結束頁。`;$('#list').innerHTML=list.length?list.map(w=>`<div class="row"><div><div class="word">${w.word}</div><div class="pos">${w.part_of_speech}</div><div class="zh">${w.chinese||'—'}</div><div class="meta">頁碼 ${pageLabel(w)}｜難度 ${stars(w.difficulty)}</div></div><button class="small say" data-word="${w.word}">🔊</button></div>`).join(''):'<div class="empty">沒有符合條件的單字</div>'}
+$('#range').addEventListener('change',updatePages);$('#page').addEventListener('change',render);$('#search').addEventListener('input',render);document.addEventListener('click',e=>{if(e.target.matches('.say'))speak(e.target.dataset.word)});
+fetch(DATA_URL,{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error(`HTTP ${r.status}`);return r.text()}).then(text=>{words=csv(text).filter(w=>w.word);fillRanges();render()}).catch(err=>{$('#status').textContent=`資料載入失敗：${err.message}`});
+</script>
+</body>
+</html>
