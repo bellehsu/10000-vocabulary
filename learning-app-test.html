@@ -24,7 +24,7 @@ const store={get(k,d){try{return JSON.parse(localStorage.getItem(k))??d}catch{re
 function esc(v){return String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
 function csv(t){const rows=[];let r=[],v='',q=false;for(let i=0;i<t.length;i++){const c=t[i],n=t[i+1];if(c==='"'&&q&&n==='"'){v+='"';i++}else if(c==='"')q=!q;else if(c===','&&!q){r.push(v);v=''}else if((c==='\n'||c==='\r')&&!q){if(c==='\r'&&n==='\n')i++;r.push(v);if(r.some(x=>x!==''))rows.push(r);r=[];v=''}else v+=c}if(v||r.length){r.push(v);rows.push(r)}const h=rows.shift().map(x=>x.replace(/^\uFEFF/,'').trim());return rows.map(x=>Object.fromEntries(h.map((k,i)=>[k,(x[i]??'').trim()]))) }
 function normalize(r){return{word:r.word||'',part_of_speech:r.part_of_speech||'待確認',example:r.example||'',example_zh:r.example_zh||'',chinese:r.chinese||'',synonyms:r.synonyms||'',antonyms:r.antonyms||'',memory_hint:r.memory_hint||'',page:r.page||'',page_end:r.page_end||'',difficulty:r.difficulty||''}}
-const pages=w=>[w.page,w.page_end].filter(Boolean),pageText=w=>w.page_end?`${w.page}–${w.page_end}`:w.page||'—';
+const pages=w=>[w.page].filter(Boolean),pageText=w=>w.page_end?`${w.page}–${w.page_end}`:w.page||'—';
 function stars(n){const x=Math.max(0,Math.min(5,Number(n)||0));return `${'★'.repeat(x)}${'☆'.repeat(5-x)}（${x}/5）`}
 function speak(word){if(!word)return;speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(word);u.lang='en-US';speechSynthesis.speak(u)}
 function reviewSet(){return new Set(store.get('reviewWords',[]))}function saveReview(s){store.set('reviewWords',[...s]);updateBadge()}function updateBadge(){$('#reviewBadge').textContent=`總複習 ${reviewSet().size}`}
