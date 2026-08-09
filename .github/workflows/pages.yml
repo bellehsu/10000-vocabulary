@@ -24,6 +24,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Build combined vocabulary data
+        run: |
+          tail -n +2 data/vocabulary-pages-24-31.csv >> data/vocabulary-pages-12-15.csv
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
         with:
