@@ -9,15 +9,15 @@ permissions:
 
 jobs:
   update-index:
-    if: ${{ !startsWith(github.event.head_commit.message, 'chore: enable vocabulary pages through 37') }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
       - name: Update index data loader
-        shell: python
+        shell: bash
         run: |
+          python3 <<'PY'
           from pathlib import Path
 
           path = Path("index.html")
@@ -40,8 +40,10 @@ jobs:
               raise SystemExit("data loader block not found")
 
           path.write_text(text, encoding="utf-8")
+          PY
 
       - name: Commit update
+        shell: bash
         run: |
           if git diff --quiet -- index.html; then
             echo "No changes needed"
