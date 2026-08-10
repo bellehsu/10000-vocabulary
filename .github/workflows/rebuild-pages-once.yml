@@ -18,11 +18,12 @@ jobs:
       - name: Remove temporary staging data and one-off workflow
         run: |
           rm -f data/pages-038-042.csv
+          rm -f .rebuild-trigger
           rm -f .github/workflows/rebuild-pages-once.yml
       - name: Commit rebuilt data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data .github/workflows/rebuild-pages-once.yml
+          git add -A data .rebuild-trigger .github/workflows/rebuild-pages-once.yml
           git commit -m "Merge vocabulary pages 38-42" || exit 0
           git push
