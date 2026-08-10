@@ -37,11 +37,6 @@ jobs:
               if n != 1:
                   raise SystemExit('Could not replace inline app script')
               p.write_text(new, encoding='utf-8')
-
-          y = Path('.github/workflows/pages.yml')
-          s = y.read_text(encoding='utf-8')
-          s = re.sub(r'\n      - name: Build combined vocabulary data\n        run: \|\n(?:          .*\n)+?(?=\n      - name: Setup Pages)', '\n', s)
-          y.write_text(s, encoding='utf-8')
           PY
 
       - name: Verify generated data
