@@ -1,56 +1,71 @@
-name: Enable vocabulary pages through 37
+name: Rebuild vocabulary data
 
 on:
   push:
     branches: ["main"]
+    paths:
+      - "scripts/rebuild_data.py"
+      - "app.js"
+      - "data/*.csv"
+  workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  update-index:
+  rebuild:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Update index data loader
+      - name: Rebuild canonical CSVs and indexes
+        run: python3 scripts/rebuild_data.py
+
+      - name: Switch site to lazy loader
         shell: bash
         run: |
           python3 <<'PY'
           from pathlib import Path
+          import re
 
-          path = Path("index.html")
-          text = path.read_text(encoding="utf-8")
+          p = Path('index.html')
+          text = p.read_text(encoding='utf-8')
+          external = '<script src="app.js?v=20260810"></script>'
+          if external not in text:
+              new, n = re.subn(r'<script>\s*\'use strict\';.*?</script>', external, text, count=1, flags=re.S)
+              if n != 1:
+                  raise SystemExit('Could not replace inline app script')
+              p.write_text(new, encoding='utf-8')
 
-          old_data = "const DATA='data/vocabulary-pages-12-15.csv?v=20260807b';"
-          new_data = "const DATA=['data/vocabulary-pages-12-15.csv?v=20260810','data/vocabulary-pages-24-31.csv?v=20260810','data/vocabulary-pages-32-37.csv?v=20260810'];"
-
-          old_loader = "window.addEventListener('hashchange',route);fetch(DATA,{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error(`HTTP ${r.status}`);return r.text()}).then(t=>{words=parseCsv(t).map(normalize).filter(w=>w.word);updateBadge();route()}).catch(err=>{app.innerHTML=`<section class=\"panel\">資料載入失敗：${esc(err.message)}</section>`});"
-          new_loader = "window.addEventListener('hashchange',route);Promise.all(DATA.map(url=>fetch(url,{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error(`${url}: HTTP ${r.status}`);return r.text()}))).then(parts=>{const seen=new Set();words=parts.flatMap(t=>parseCsv(t).map(normalize)).filter(w=>{if(!w.word)return false;const key=`${w.word}|${w.page}`;if(seen.has(key))return false;seen.add(key);return true});updateBadge();route()}).catch(err=>{app.innerHTML=`<section class=\"panel\">資料載入失敗：${esc(err.message)}</section>`});"
-
-          if old_data in text:
-              text = text.replace(old_data, new_data)
-          elif new_data not in text:
-              raise SystemExit("DATA declaration not found")
-
-          if old_loader in text:
-              text = text.replace(old_loader, new_loader)
-          elif new_loader not in text:
-              raise SystemExit("data loader block not found")
-
-          path.write_text(text, encoding="utf-8")
+          y = Path('.github/workflows/pages.yml')
+          s = y.read_text(encoding='utf-8')
+          s = re.sub(r'\n      - name: Build combined vocabulary data\n        run: \|\n(?:          .*\n)+?(?=\n      - name: Setup Pages)', '\n', s)
+          y.write_text(s, encoding='utf-8')
           PY
 
-      - name: Commit update
+      - name: Verify generated data
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          v=json.loads(Path('data/validation.json').read_text(encoding='utf-8'))
+          assert v['ok'] is True
+          assert v['field_level_content_identical'] is True
+          assert v['row_count_before'] == v['row_count_after']
+          print('Verified rows:', v['row_count_after'])
+          print('SHA256:', v['content_sha256_after'])
+          PY
+
+      - name: Commit canonical data and loader
         shell: bash
         run: |
-          if git diff --quiet -- index.html; then
+          if git diff --quiet; then
             echo "No changes needed"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add index.html
-          git commit -m "chore: enable vocabulary pages through 37"
+          git add -A
+          git commit -m "refactor: lazy-load canonical 10-page vocabulary data"
           git push
