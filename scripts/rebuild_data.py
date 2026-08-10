@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Canonical 10-page CSV rebuilder and integrity verifier.
 import csv, json, hashlib, re
 from collections import Counter, defaultdict
 from pathlib import Path
