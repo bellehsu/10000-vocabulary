@@ -4,6 +4,7 @@ on:
   push:
     branches: ["main"]
     paths:
+      - ".github/workflows/enable-pages-32-37.yml"
       - "scripts/rebuild_data.py"
       - "app.js"
       - "data/*.csv"
