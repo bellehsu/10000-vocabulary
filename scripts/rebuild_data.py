@@ -40,6 +40,10 @@ def read_csv(path):
         return rows
 
 
+def word_key(word):
+    return word.strip().casefold()
+
+
 def sig(rows):
     serial = [json.dumps([r[k] for k in HEADER], ensure_ascii=False, separators=(",", ":")) for r in rows]
     serial.sort()
@@ -58,6 +62,42 @@ def write_csv(path, rows):
         w.writerows(rows)
 
 
+def duplicate_report(rows):
+    same_page_counter = Counter((word_key(r["word"]), int(r["page"])) for r in rows)
+    same_page = [
+        {"word": key, "page": page, "count": count}
+        for (key, page), count in sorted(same_page_counter.items())
+        if count > 1
+    ]
+
+    word_pages = defaultdict(set)
+    display_word = {}
+    for r in rows:
+        key = word_key(r["word"])
+        word_pages[key].add(int(r["page"]))
+        display_word.setdefault(key, r["word"])
+    cross_page = [
+        {"word": display_word[key], "pages": sorted(pages)}
+        for key, pages in sorted(word_pages.items())
+        if len(pages) > 1
+    ]
+    return same_page, cross_page
+
+
+def build_unique_review_pool(rows):
+    # Total/history review must never present the same English word twice in one session.
+    # Keep the first canonical occurrence and preserve all source rows separately.
+    seen = set()
+    pool = []
+    for r in sorted(rows, key=lambda x: (int(x["page"]), word_key(x["word"]))):
+        key = word_key(r["word"])
+        if key in seen:
+            continue
+        seen.add(key)
+        pool.append(r)
+    return pool
+
+
 def main():
     DATA.mkdir(exist_ok=True)
     canonical = sorted(p for p in DATA.glob("pages-*.csv") if CANON.match(p.name))
@@ -70,10 +110,9 @@ def main():
     for p in source_files:
         source_rows.extend(read_csv(p))
 
-    keys = [(r["word"].casefold(), r["page"]) for r in source_rows]
-    dup = [k for k, n in Counter(keys).items() if n > 1]
-    if dup:
-        raise SystemExit(f"Duplicate word/page keys found: {dup[:20]}")
+    same_page_duplicates, cross_page_duplicates = duplicate_report(source_rows)
+    if same_page_duplicates:
+        raise SystemExit(f"Duplicate word/page keys found: {same_page_duplicates[:20]}")
 
     before_count = len(source_rows)
     before_sig = sig(source_rows)
@@ -85,7 +124,7 @@ def main():
 
     generated = []
     for (start, end), rows in sorted(groups.items()):
-        rows.sort(key=lambda r: (int(r["page"]), r["word"].casefold()))
+        rows.sort(key=lambda r: (int(r["page"]), word_key(r["word"])))
         name = f"pages-{start:03d}-{end:03d}.csv"
         path = DATA / name
         write_csv(path, rows)
@@ -98,6 +137,12 @@ def main():
     after_sig = sig(rebuilt)
     if before_count != after_count or before_sig != after_sig:
         raise SystemExit(f"Integrity verification failed: before={before_count}/{before_sig}, after={after_count}/{after_sig}")
+
+    rebuilt_same_page, rebuilt_cross_page = duplicate_report(rebuilt)
+    if rebuilt_same_page:
+        raise SystemExit(f"Duplicate word/page keys found after rebuild: {rebuilt_same_page[:20]}")
+    if rebuilt_cross_page != cross_page_duplicates:
+        raise SystemExit("Cross-page duplicate report changed during rebuild")
 
     pages = sorted({int(r["page"]) for r in rebuilt})
     ranges = []
@@ -133,8 +178,15 @@ def main():
         "page": int(r["page"]),
         "page_end": int(r["page_end"]) if r["page_end"] else None,
         "difficulty": int(r["difficulty"]) if r["difficulty"] else None,
-    } for r in sorted(rebuilt, key=lambda r: (int(r["page"]), r["word"].casefold()))]
+    } for r in sorted(rebuilt, key=lambda r: (int(r["page"]), word_key(r["word"])))]
     (DATA / "index.json").write_text(json.dumps(index, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
+
+    review_pool = build_unique_review_pool(rebuilt)
+    review_keys = [word_key(r["word"]) for r in review_pool]
+    review_duplicate_count = len(review_keys) - len(set(review_keys))
+    review_deduplication_ok = review_duplicate_count == 0
+    if not review_deduplication_ok:
+        raise SystemExit("Review deduplication verification failed")
 
     per_page = Counter(int(r["page"]) for r in rebuilt)
     report = {
@@ -147,6 +199,14 @@ def main():
         "content_sha256_before": before_sig,
         "content_sha256_after": after_sig,
         "field_level_content_identical": before_sig == after_sig,
+        "same_page_duplicate_count": len(rebuilt_same_page),
+        "same_page_duplicates": rebuilt_same_page,
+        "cross_page_duplicate_count": len(rebuilt_cross_page),
+        "cross_page_duplicates": rebuilt_cross_page,
+        "review_source_row_count": len(rebuilt),
+        "review_unique_word_count": len(review_pool),
+        "review_duplicate_count": review_duplicate_count,
+        "review_deduplication_ok": review_deduplication_ok,
         "per_page_counts": {str(k): per_page[k] for k in sorted(per_page)},
     }
     (DATA / "validation.json").write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -156,6 +216,7 @@ def main():
             p.unlink()
 
     print(json.dumps(report, ensure_ascii=False, indent=2))
+
 
 if __name__ == "__main__":
     main()
