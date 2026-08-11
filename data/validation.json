@@ -13,10 +13,10 @@
     "data/pages-031-040.csv",
     "data/pages-041-050.csv"
   ],
-  "row_count_before": 313,
-  "row_count_after": 313,
-  "content_sha256_before": "ad29e115b209156e3e42e0d68f25c0d01248967261ce9caec231b2db7d4814ed",
-  "content_sha256_after": "ad29e115b209156e3e42e0d68f25c0d01248967261ce9caec231b2db7d4814ed",
+  "row_count_before": 350,
+  "row_count_after": 350,
+  "content_sha256_before": "66386405a7a7625214a7c4dacbf6e0491dda0f0d0dc83eda6bb4837858a09d8e",
+  "content_sha256_after": "66386405a7a7625214a7c4dacbf6e0491dda0f0d0dc83eda6bb4837858a09d8e",
   "field_level_content_identical": true,
   "per_page_counts": {
     "12": 9,
@@ -52,6 +52,10 @@
     "42": 9,
     "43": 9,
     "44": 9,
-    "45": 9
+    "45": 9,
+    "46": 9,
+    "47": 10,
+    "48": 9,
+    "49": 9
   }
 }
