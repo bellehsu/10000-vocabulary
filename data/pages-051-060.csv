@@ -1,14 +1,4 @@
 word,part_of_speech,example,example_zh,chinese,synonyms,antonyms,memory_hint,page,page_end,difficulty
-cramp,verb,All these difficulties including lack of financial support cramped the progress of this institution.,所有的困難，包括缺乏資金在內，都妨礙該機構的發展。,限制；妨礙,hamper; confine,,字根 cram 表「塞滿」，可聯想空間被擠滿而受到限制，因此有「限制；妨礙」之意。,50,,4
-creativity,noun,She is a writer with seemingly unlimited creativity.,她是一位彷彿有無限創造力的作家。,創造力,ingenuity,,create（創造）加 -ivity 形成名詞 creativity，表示創造力。,50,,5
-creator,noun,Do you believe that God is the creator of the universe?,你相信上帝是宇宙的創造者嗎？,創作者；發明者,inventor,,create（創造）加表示人的 -or，形成 creator，表示創作者、發明者。,50,,5
-credible,adjective,It is hardly credible that he gave up the job.,他放棄了工作，真令人難以置信。,可信的；可靠的,believable; dependable,incredible,credit 可聯想「信用」，加 -ible 形成形容詞 credible，表示可信的、可靠的。,50,,4
-creditor,noun,"Each time his creditor comes, he is not in.",債主每次來，他都不在家。,債權人,lender; loaner,debtor,credit（信用；賒帳）加表示人的 -or，形成 creditor，表示債權人。,50,,4
-criterion,noun,I don't think this criterion for judging intelligence is reasonable.,我不認為這個判斷智力的標準合理。,標準；準則；尺度,standard; touchstone,,criterion 表示用來判斷或衡量事物的標準、準則。,50,,4
-crossing,noun,"My life is at a crossing, and if I make a wrong choice, I shall regret it in the future.",我的人生正處在十字路口，若選擇錯誤，將來會後悔。,十字路口；渡口；橫渡,intersection; crossway,,cross（交叉；橫越）加 -ing 形成 crossing，可表示十字路口、渡口或橫渡。,50,,4
-crucial,adjective,It is crucial that you make the right decision on the business deal.,你在這宗生意中做出正確的決定是非常重要的。,關鍵的；決定性的；重要的,key; significant,unimportant,crucial 可聯想處在十字路口（cross）需要作出關鍵決定，因此表示關鍵的、重要的。,50,,5
-crude,adjective,Your crude words hurt her; you should make an apology.,你粗魯的話傷害了她，你應該道歉。,天然的；未加工的；粗野的,coarse; rude,elegant,crude 可表示未經加工的，也可引申為粗糙、粗野的。,50,,4
-cube,noun,Please give me a cube of sugar.,請給我一塊方糖。,立方體；立方形物體,,,cube 指立方體；可聯想方糖的形狀來記憶。,50,51,5
 cubic,adjective,I don't know what the cubic capacity of this engine is.,我不知道這台發動機的體積是多少。,立方體的；立方的,three-dimensional,,cube（立方體）去 e 加 -ic 形成形容詞 cubic，表示立方的、立方體的。,51,,5
 cumulative,adjective,The cumulative effect of many diseases made her weak.,多種疾病累積的折磨使她很虛弱。,漸增的；蓄積的；累計的,growing; crescent,,cumulate（積累）加 -ive 形成形容詞 cumulative，表示漸增的、蓄積的、累計的。,51,,5
 currency,noun,"When you go to America, you must carry American currency.",當你去美國時，你必須帶著美幣。,貨幣；流通；通用,coin; money,,字根 curr 表「跑、流動」，-ency 為名詞字尾，可聯想流通的媒介，因此有貨幣之意。,51,,5
@@ -16,8 +6,8 @@ customary,adjective,It is customary to celebrate the festival by boat races.,舉
 cutting,adjective,You should apologize for your cutting remarks which you made yesterday.,你應該為你昨天傷人的評論道歉。,銳利的；寒冷的；傷人的,sharp; bitter,mild; pleasurable,cut（切、削）加 -ing 形成形容詞 cutting，可引申為銳利的、刺骨的或傷人的。,51,,3
 cynical,adjective,"Having been dismissed by the company, he got more cynical.",被一家公司開除後，他變得更憤世嫉俗。,憤世嫉俗的；挖苦的,satiric,optimistic,字根 cyn- 可聯想 cynic（憤世嫉俗者），加 -ical 形成形容詞 cynical。,51,,4
 daring,adjective,"I am not daring enough to go bungee-jumping, are you?",我不敢去玩高空彈跳，你敢嗎？,勇敢的；敢於冒險的,brave; venturesome,timid; shy,dare（敢；膽敢）去 e 加 -ing 形成形容詞 daring，表示勇敢的、敢於冒險的。,51,,5
-daybreak,noun,"If we set off at daybreak, we can arrive before 5 p.m.",若我們在黎明出發，下午五點之前就可以到達。,黎明；破曉,dawn; morning,night,day（白天）＋ break（打破），可聯想黑夜被白天打破，因此表示黎明、破曉。,51,,3
 day-to-day,adjective,"Having looked after the day-to-day administration for 30 years, he retired last year.",在負責一日一日的行政工作三十年後，他去年退休了。,每日的；逐日的；日常的,daily,,day 加 to 表「到」，合起來可聯想一天到另一天，因此表示每日的、逐日的、日常的。,51,52,5
+daybreak,noun,"If we set off at daybreak, we can arrive before 5 p.m.",若我們在黎明出發，下午五點之前就可以到達。,黎明；破曉,dawn; morning,night,day（白天）＋ break（打破），可聯想黑夜被白天打破，因此表示黎明、破曉。,51,,3
 dazzle,verb,"Dazzled by the sudden success, she stopped her lessons.",她被突然的成功沖昏了頭，並停止了教課。,使目眩；使迷惑,daze; confuse,,dazzle 可與 daze（使茫然、使暈眩）聯想，一起記憶。,52,,5
 deadly,adverb,The sharpshooter is deadly accurate.,那名狙擊手非常神準。,非常；極度地,extremely,,dead（死的）加 -ly 作副詞字尾，可引申為非常、極度地。,52,,3
 deafen,verb,Could you turn down the radio? It's deafening me.,你能把收音機的聲音關小一點嗎？它快把我震聾了。,使聾；震聾,make deaf,,deaf（聾的）加 -en 形成動詞 deafen，表示使聾、震聾。,52,,5
