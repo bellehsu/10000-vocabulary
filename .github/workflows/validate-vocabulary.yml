@@ -1,5 +1,6 @@
 name: Validate vocabulary data
 
+# Manual revalidation trigger: 2026-08-18
 on:
   push:
     branches: ["main"]
@@ -48,7 +49,7 @@ jobs:
             exit 0
           fi
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git add data/manifest.json data/index.json data/validation.json data/pages-*.csv
           git commit -m "Refresh vocabulary validation report"
           git push
