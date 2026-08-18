@@ -1,6 +1,6 @@
 name: Validate vocabulary data
 
-# Manual revalidation trigger: 2026-08-18
+# Manual revalidation trigger: 2026-08-18 08:01 Asia/Taipei
 on:
   push:
     branches: ["main"]
