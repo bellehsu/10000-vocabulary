@@ -13,14 +13,33 @@ LEGACY = re.compile(r"vocabulary-pages-.*\.csv$")
 
 def read_csv(path):
     with path.open("r", encoding="utf-8-sig", newline="") as f:
-        r = csv.DictReader(f)
-        if r.fieldnames != HEADER:
-            raise SystemExit(f"Bad header in {path}: {r.fieldnames}")
+        r = csv.reader(f)
+        try:
+            header = next(r)
+        except StopIteration:
+            raise SystemExit(f"Empty CSV: {path}")
+        if header != HEADER:
+            raise SystemExit(f"Bad header in {path}: {header}")
+
         rows = []
-        for i, row in enumerate(r, start=2):
-            if None in row:
-                raise SystemExit(f"Extra column in {path}:{i}")
-            clean = {k: (row.get(k) or "") for k in HEADER}
+        for i, values in enumerate(r, start=2):
+            if len(values) < len(HEADER):
+                raise SystemExit(f"Missing column in {path}:{i} ({len(values)} < {len(HEADER)})")
+
+            # Historical source files contain a few English examples with an
+            # unquoted comma. In that case csv.reader sees one or more extra
+            # fields. The eight fields after example are structurally fixed,
+            # so fold any surplus fields back into the example text. The CSV
+            # is then rewritten canonically by write_csv(), which adds the
+            # required quoting and prevents the same failure on later runs.
+            if len(values) > len(HEADER):
+                fixed_example = ",".join(values[2:-8])
+                values = values[:2] + [fixed_example] + values[-8:]
+                if len(values) != len(HEADER):
+                    raise SystemExit(f"Unable to repair extra column in {path}:{i}")
+
+            clean = dict(zip(HEADER, values))
+            clean = {k: (clean.get(k) or "") for k in HEADER}
             if not clean["word"]:
                 raise SystemExit(f"Empty word in {path}:{i}")
             try:
