@@ -24,6 +24,21 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Rebuild vocabulary indexes
+        run: python scripts/rebuild_data.py
+
+      - name: Verify generated manifest
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          manifest = json.loads(Path('data/manifest.json').read_text(encoding='utf-8'))
+          assert manifest['last_page'] is not None
+          assert manifest['total_words'] > 0
+          print('Vocabulary pages:', manifest['first_page'], '-', manifest['last_page'])
+          print('Total words:', manifest['total_words'])
+          PY
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
         with:
