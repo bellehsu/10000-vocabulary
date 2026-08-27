@@ -12,7 +12,8 @@
     "data/pages-081-090.csv",
     "data/pages-091-100.csv",
     "data/pages-101-110.csv",
-    "data/pages-111-120.csv"
+    "data/pages-111-120.csv",
+    "data/pages-116-120.csv"
   ],
   "generated_files": [
     "data/pages-011-020.csv",
@@ -27,17 +28,17 @@
     "data/pages-101-110.csv",
     "data/pages-111-120.csv"
   ],
-  "row_count_before": 977,
-  "row_count_after": 977,
-  "content_sha256_before": "436006ed74c768695340165cfbd3c70e737eeba1ed8473a53754d092631cd894",
-  "content_sha256_after": "436006ed74c768695340165cfbd3c70e737eeba1ed8473a53754d092631cd894",
+  "row_count_before": 1024,
+  "row_count_after": 1024,
+  "content_sha256_before": "b96403f930eb23655f0c5f2fcafac6a9d87db98a5d369881f28af4090bb33e1b",
+  "content_sha256_after": "b96403f930eb23655f0c5f2fcafac6a9d87db98a5d369881f28af4090bb33e1b",
   "field_level_content_identical": true,
   "same_page_duplicate_count": 0,
   "same_page_duplicates": [],
   "cross_page_duplicate_count": 0,
   "cross_page_duplicates": [],
-  "review_source_row_count": 977,
-  "review_unique_word_count": 977,
+  "review_source_row_count": 1024,
+  "review_unique_word_count": 1024,
   "review_duplicate_count": 0,
   "review_deduplication_ok": true,
   "per_page_counts": {
@@ -144,6 +145,11 @@
     "112": 10,
     "113": 10,
     "114": 10,
-    "115": 10
+    "115": 10,
+    "116": 10,
+    "117": 9,
+    "118": 10,
+    "119": 9,
+    "120": 9
   }
 }
