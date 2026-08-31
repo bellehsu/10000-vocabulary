@@ -29,17 +29,17 @@
     "data/pages-111-120.csv",
     "data/pages-121-130.csv"
   ],
-  "row_count_before": 1073,
-  "row_count_after": 1073,
-  "content_sha256_before": "de6c61f8ef270a5805cca6891d86477cc48d4f04288478e42444af8de86d55a9",
-  "content_sha256_after": "de6c61f8ef270a5805cca6891d86477cc48d4f04288478e42444af8de86d55a9",
+  "row_count_before": 1122,
+  "row_count_after": 1122,
+  "content_sha256_before": "36d14116259a067d32104aca9feba85b182467e7096b9989fb8f6e75e6c6822a",
+  "content_sha256_after": "36d14116259a067d32104aca9feba85b182467e7096b9989fb8f6e75e6c6822a",
   "field_level_content_identical": true,
   "same_page_duplicate_count": 0,
   "same_page_duplicates": [],
   "cross_page_duplicate_count": 0,
   "cross_page_duplicates": [],
-  "review_source_row_count": 1073,
-  "review_unique_word_count": 1073,
+  "review_source_row_count": 1122,
+  "review_unique_word_count": 1122,
   "review_duplicate_count": 0,
   "review_deduplication_ok": true,
   "per_page_counts": {
@@ -156,6 +156,11 @@
     "122": 10,
     "123": 10,
     "124": 10,
-    "125": 9
+    "125": 10,
+    "126": 9,
+    "127": 10,
+    "128": 9,
+    "129": 10,
+    "130": 10
   }
 }
