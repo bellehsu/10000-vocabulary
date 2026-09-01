@@ -40,6 +40,8 @@ jobs:
           assert report['review_duplicate_count'] == 0
           assert report['review_deduplication_ok'] is True
           assert manifest['last_page'] is not None
+          assert manifest['pages']
+          assert manifest['last_page'] == max(manifest['pages'])
           assert manifest['total_words'] == report['row_count_after']
 
           print('Vocabulary pages:', manifest['first_page'], '-', manifest['last_page'])
