@@ -7,7 +7,6 @@ on:
       - ".github/workflows/enable-pages-32-37.yml"
       - "scripts/rebuild_data.py"
       - "app.js"
-      - "data/*.csv"
   workflow_dispatch:
 
 permissions:
