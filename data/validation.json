@@ -35,17 +35,17 @@
     "data/pages-141-150.csv",
     "data/pages-151-160.csv"
   ],
-  "row_count_before": 1329,
-  "row_count_after": 1329,
-  "content_sha256_before": "9f285d36dd1504fe8c5338518b4d8b353910bc641eb42ef77984bb9e5710ea3c",
-  "content_sha256_after": "9f285d36dd1504fe8c5338518b4d8b353910bc641eb42ef77984bb9e5710ea3c",
+  "row_count_before": 1413,
+  "row_count_after": 1413,
+  "content_sha256_before": "848222cbb0d3200b70d60b0ef5f3acbfbec38ab3bba5d2dfd9df2b0da8847cde",
+  "content_sha256_after": "848222cbb0d3200b70d60b0ef5f3acbfbec38ab3bba5d2dfd9df2b0da8847cde",
   "field_level_content_identical": true,
   "same_page_duplicate_count": 0,
   "same_page_duplicates": [],
   "cross_page_duplicate_count": 0,
   "cross_page_duplicates": [],
-  "review_source_row_count": 1329,
-  "review_unique_word_count": 1329,
+  "review_source_row_count": 1413,
+  "review_unique_word_count": 1413,
   "review_duplicate_count": 0,
   "review_deduplication_ok": true,
   "per_page_counts": {
@@ -188,6 +188,15 @@
     "148": 10,
     "149": 9,
     "150": 11,
-    "151": 9
+    "151": 9,
+    "152": 10,
+    "153": 9,
+    "154": 10,
+    "155": 8,
+    "156": 11,
+    "157": 9,
+    "158": 10,
+    "159": 10,
+    "160": 7
   }
 }
