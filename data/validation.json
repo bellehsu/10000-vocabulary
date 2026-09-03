@@ -39,14 +39,14 @@
     "data/pages-161-170.csv",
     "data/pages-171-180.csv"
   ],
-  "row_count_before": 1517,
-  "row_count_after": 1517,
-  "content_sha256_before": "c6838582e5e0efb234dc713a35c3a993a13ea0ee63dc9fa209474e464328d18f",
-  "content_sha256_after": "c6838582e5e0efb234dc713a35c3a993a13ea0ee63dc9fa209474e464328d18f",
+  "row_count_before": 1547,
+  "row_count_after": 1547,
+  "content_sha256_before": "b3232a12b4476a53d338bf3114e0e006c0115eedf9fa02febf48dc1cd9fee1c3",
+  "content_sha256_after": "b3232a12b4476a53d338bf3114e0e006c0115eedf9fa02febf48dc1cd9fee1c3",
   "field_level_content_identical": true,
   "same_page_duplicate_count": 0,
   "same_page_duplicates": [],
-  "cross_page_duplicate_count": 16,
+  "cross_page_duplicate_count": 21,
   "cross_page_duplicates": [
     {
       "word": "abbreviate",
@@ -159,10 +159,45 @@
         29,
         175
       ]
+    },
+    {
+      "word": "caution",
+      "pages": [
+        32,
+        177
+      ]
+    },
+    {
+      "word": "celebrity",
+      "pages": [
+        33,
+        177
+      ]
+    },
+    {
+      "word": "charter",
+      "pages": [
+        34,
+        178
+      ]
+    },
+    {
+      "word": "chuck",
+      "pages": [
+        35,
+        178
+      ]
+    },
+    {
+      "word": "cling",
+      "pages": [
+        36,
+        179
+      ]
     }
   ],
-  "review_source_row_count": 1517,
-  "review_unique_word_count": 1501,
+  "review_source_row_count": 1547,
+  "review_unique_word_count": 1526,
   "review_duplicate_count": 0,
   "review_deduplication_ok": true,
   "per_page_counts": {
@@ -328,6 +363,10 @@
     "172": 7,
     "173": 5,
     "174": 6,
-    "175": 8
+    "175": 8,
+    "176": 8,
+    "177": 8,
+    "178": 6,
+    "179": 8
   }
 }
