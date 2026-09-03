@@ -16,7 +16,8 @@
     "data/pages-121-130.csv",
     "data/pages-131-140.csv",
     "data/pages-141-150.csv",
-    "data/pages-151-160.csv"
+    "data/pages-151-160.csv",
+    "data/pages-161-170.csv"
   ],
   "generated_files": [
     "data/pages-011-020.csv",
@@ -33,19 +34,105 @@
     "data/pages-121-130.csv",
     "data/pages-131-140.csv",
     "data/pages-141-150.csv",
-    "data/pages-151-160.csv"
+    "data/pages-151-160.csv",
+    "data/pages-161-170.csv"
   ],
-  "row_count_before": 1413,
-  "row_count_after": 1413,
-  "content_sha256_before": "848222cbb0d3200b70d60b0ef5f3acbfbec38ab3bba5d2dfd9df2b0da8847cde",
-  "content_sha256_after": "848222cbb0d3200b70d60b0ef5f3acbfbec38ab3bba5d2dfd9df2b0da8847cde",
+  "row_count_before": 1476,
+  "row_count_after": 1476,
+  "content_sha256_before": "5a4803099267682e1c24d67b7ea9088291778adf641c9c911dc7d5580fddfce6",
+  "content_sha256_after": "5a4803099267682e1c24d67b7ea9088291778adf641c9c911dc7d5580fddfce6",
   "field_level_content_identical": true,
   "same_page_duplicate_count": 0,
   "same_page_duplicates": [],
-  "cross_page_duplicate_count": 0,
-  "cross_page_duplicates": [],
-  "review_source_row_count": 1413,
-  "review_unique_word_count": 1413,
+  "cross_page_duplicate_count": 12,
+  "cross_page_duplicates": [
+    {
+      "word": "abbreviate",
+      "pages": [
+        12,
+        162
+      ]
+    },
+    {
+      "word": "abortion",
+      "pages": [
+        12,
+        162
+      ]
+    },
+    {
+      "word": "accumulation",
+      "pages": [
+        13,
+        163
+      ]
+    },
+    {
+      "word": "adaptation",
+      "pages": [
+        14,
+        163
+      ]
+    },
+    {
+      "word": "advocate",
+      "pages": [
+        16,
+        164
+      ]
+    },
+    {
+      "word": "agenda",
+      "pages": [
+        17,
+        165
+      ]
+    },
+    {
+      "word": "aggravate",
+      "pages": [
+        17,
+        165
+      ]
+    },
+    {
+      "word": "ambiguous",
+      "pages": [
+        19,
+        166
+      ]
+    },
+    {
+      "word": "anticipate",
+      "pages": [
+        20,
+        166
+      ]
+    },
+    {
+      "word": "appall",
+      "pages": [
+        20,
+        167
+      ]
+    },
+    {
+      "word": "artifact",
+      "pages": [
+        21,
+        168
+      ]
+    },
+    {
+      "word": "assessment",
+      "pages": [
+        22,
+        168
+      ]
+    }
+  ],
+  "review_source_row_count": 1476,
+  "review_unique_word_count": 1464,
   "review_duplicate_count": 0,
   "review_deduplication_ok": true,
   "per_page_counts": {
@@ -197,6 +284,14 @@
     "157": 9,
     "158": 10,
     "159": 10,
-    "160": 7
+    "160": 7,
+    "162": 7,
+    "163": 8,
+    "164": 8,
+    "165": 8,
+    "166": 8,
+    "167": 8,
+    "168": 8,
+    "169": 8
   }
 }
