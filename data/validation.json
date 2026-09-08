@@ -43,14 +43,14 @@
     "data/pages-181-190.csv",
     "data/pages-191-200.csv"
   ],
-  "row_count_before": 1636,
-  "row_count_after": 1636,
-  "content_sha256_before": "357cd46cf086f452dc89b689beddedbf8061e7e26aee7e20b2db1d4c249bca5f",
-  "content_sha256_after": "357cd46cf086f452dc89b689beddedbf8061e7e26aee7e20b2db1d4c249bca5f",
+  "row_count_before": 1702,
+  "row_count_after": 1702,
+  "content_sha256_before": "e15c57698a947873013d847b0a88478cebe2eea19ba232496649c89c9ca7304c",
+  "content_sha256_after": "e15c57698a947873013d847b0a88478cebe2eea19ba232496649c89c9ca7304c",
   "field_level_content_identical": true,
   "same_page_duplicate_count": 0,
   "same_page_duplicates": [],
-  "cross_page_duplicate_count": 36,
+  "cross_page_duplicate_count": 45,
   "cross_page_duplicates": [
     {
       "word": "abbreviate",
@@ -303,10 +303,73 @@
         53,
         191
       ]
+    },
+    {
+      "word": "derive",
+      "pages": [
+        54,
+        192
+      ]
+    },
+    {
+      "word": "detain",
+      "pages": [
+        55,
+        192
+      ]
+    },
+    {
+      "word": "discharge",
+      "pages": [
+        57,
+        194
+      ]
+    },
+    {
+      "word": "disclose",
+      "pages": [
+        57,
+        194
+      ]
+    },
+    {
+      "word": "distract",
+      "pages": [
+        59,
+        195
+      ]
+    },
+    {
+      "word": "divert",
+      "pages": [
+        60,
+        195
+      ]
+    },
+    {
+      "word": "download",
+      "pages": [
+        61,
+        196
+      ]
+    },
+    {
+      "word": "drainage",
+      "pages": [
+        61,
+        196
+      ]
+    },
+    {
+      "word": "enforcement",
+      "pages": [
+        64,
+        199
+      ]
     }
   ],
-  "review_source_row_count": 1636,
-  "review_unique_word_count": 1600,
+  "review_source_row_count": 1702,
+  "review_unique_word_count": 1657,
   "review_duplicate_count": 0,
   "review_deduplication_ok": true,
   "per_page_counts": {
@@ -488,6 +551,14 @@
     "188": 7,
     "189": 8,
     "190": 7,
-    "191": 8
+    "191": 8,
+    "192": 9,
+    "193": 9,
+    "194": 7,
+    "195": 8,
+    "196": 8,
+    "197": 8,
+    "198": 8,
+    "199": 9
   }
 }
