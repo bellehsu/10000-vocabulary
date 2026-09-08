@@ -20,7 +20,8 @@
     "data/pages-161-170.csv",
     "data/pages-171-180.csv",
     "data/pages-181-190.csv",
-    "data/pages-191-200.csv"
+    "data/pages-191-200.csv",
+    "data/pages-201-210.csv"
   ],
   "generated_files": [
     "data/pages-011-020.csv",
@@ -41,16 +42,17 @@
     "data/pages-161-170.csv",
     "data/pages-171-180.csv",
     "data/pages-181-190.csv",
-    "data/pages-191-200.csv"
+    "data/pages-191-200.csv",
+    "data/pages-201-210.csv"
   ],
-  "row_count_before": 1702,
-  "row_count_after": 1702,
-  "content_sha256_before": "e15c57698a947873013d847b0a88478cebe2eea19ba232496649c89c9ca7304c",
-  "content_sha256_after": "e15c57698a947873013d847b0a88478cebe2eea19ba232496649c89c9ca7304c",
+  "row_count_before": 1745,
+  "row_count_after": 1745,
+  "content_sha256_before": "a1a2967969fb5ae96afff7a95ea4394a4312465b6ad0b3d0a3c87511450b6fc5",
+  "content_sha256_after": "a1a2967969fb5ae96afff7a95ea4394a4312465b6ad0b3d0a3c87511450b6fc5",
   "field_level_content_identical": true,
   "same_page_duplicate_count": 0,
   "same_page_duplicates": [],
-  "cross_page_duplicate_count": 45,
+  "cross_page_duplicate_count": 52,
   "cross_page_duplicates": [
     {
       "word": "abbreviate",
@@ -366,10 +368,59 @@
         64,
         199
       ]
+    },
+    {
+      "word": "exclusive",
+      "pages": [
+        67,
+        201
+      ]
+    },
+    {
+      "word": "expel",
+      "pages": [
+        68,
+        201
+      ]
+    },
+    {
+      "word": "famine",
+      "pages": [
+        70,
+        202
+      ]
+    },
+    {
+      "word": "fascist",
+      "pages": [
+        70,
+        202
+      ]
+    },
+    {
+      "word": "feminist",
+      "pages": [
+        71,
+        202
+      ]
+    },
+    {
+      "word": "forthcoming",
+      "pages": [
+        73,
+        204
+      ]
+    },
+    {
+      "word": "fringe",
+      "pages": [
+        74,
+        205
+      ]
     }
   ],
-  "review_source_row_count": 1702,
-  "review_unique_word_count": 1657,
+  "review_source_row_count": 1745,
+  "review_unique_word_count": 1693,
   "review_duplicate_count": 0,
   "review_deduplication_ok": true,
   "per_page_counts": {
@@ -559,6 +610,11 @@
     "196": 8,
     "197": 8,
     "198": 8,
-    "199": 9
+    "199": 9,
+    "201": 8,
+    "202": 10,
+    "203": 9,
+    "204": 8,
+    "205": 8
   }
 }
