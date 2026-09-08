@@ -45,14 +45,14 @@
     "data/pages-191-200.csv",
     "data/pages-201-210.csv"
   ],
-  "row_count_before": 1745,
-  "row_count_after": 1745,
-  "content_sha256_before": "a1a2967969fb5ae96afff7a95ea4394a4312465b6ad0b3d0a3c87511450b6fc5",
-  "content_sha256_after": "a1a2967969fb5ae96afff7a95ea4394a4312465b6ad0b3d0a3c87511450b6fc5",
+  "row_count_before": 1754,
+  "row_count_after": 1754,
+  "content_sha256_before": "acc8f16ff77963708c78452f148d6f23e4613e01646b1ed5e9333caa88558fdd",
+  "content_sha256_after": "acc8f16ff77963708c78452f148d6f23e4613e01646b1ed5e9333caa88558fdd",
   "field_level_content_identical": true,
   "same_page_duplicate_count": 0,
   "same_page_duplicates": [],
-  "cross_page_duplicate_count": 52,
+  "cross_page_duplicate_count": 53,
   "cross_page_duplicates": [
     {
       "word": "abbreviate",
@@ -370,6 +370,13 @@
       ]
     },
     {
+      "word": "ethnic",
+      "pages": [
+        66,
+        200
+      ]
+    },
+    {
       "word": "exclusive",
       "pages": [
         67,
@@ -419,8 +426,8 @@
       ]
     }
   ],
-  "review_source_row_count": 1745,
-  "review_unique_word_count": 1693,
+  "review_source_row_count": 1754,
+  "review_unique_word_count": 1701,
   "review_duplicate_count": 0,
   "review_deduplication_ok": true,
   "per_page_counts": {
@@ -611,6 +618,7 @@
     "197": 8,
     "198": 8,
     "199": 9,
+    "200": 9,
     "201": 8,
     "202": 10,
     "203": 9,
