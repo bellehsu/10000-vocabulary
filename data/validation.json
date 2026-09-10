@@ -47,14 +47,14 @@
     "data/pages-201-210.csv",
     "data/pages-211-220.csv"
   ],
-  "row_count_before": 1817,
-  "row_count_after": 1817,
-  "content_sha256_before": "85f490c6b5971b4939455781278fc0f35b5d2aac71999ff09341d94c95c0947d",
-  "content_sha256_after": "85f490c6b5971b4939455781278fc0f35b5d2aac71999ff09341d94c95c0947d",
+  "row_count_before": 1886,
+  "row_count_after": 1886,
+  "content_sha256_before": "f0486ed2638a6bfe8e3af78db385322516a56bbadef477e5aed1258137039688",
+  "content_sha256_after": "f0486ed2638a6bfe8e3af78db385322516a56bbadef477e5aed1258137039688",
   "field_level_content_identical": true,
   "same_page_duplicate_count": 0,
   "same_page_duplicates": [],
-  "cross_page_duplicate_count": 66,
+  "cross_page_duplicate_count": 78,
   "cross_page_duplicates": [
     {
       "word": "abbreviate",
@@ -517,10 +517,94 @@
         90,
         212
       ]
+    },
+    {
+      "word": "justify",
+      "pages": [
+        91,
+        213
+      ]
+    },
+    {
+      "word": "legacy",
+      "pages": [
+        92,
+        214
+      ]
+    },
+    {
+      "word": "liable",
+      "pages": [
+        92,
+        214
+      ]
+    },
+    {
+      "word": "liberation",
+      "pages": [
+        93,
+        214
+      ]
+    },
+    {
+      "word": "mainstream",
+      "pages": [
+        95,
+        215
+      ]
+    },
+    {
+      "word": "mandate",
+      "pages": [
+        96,
+        216
+      ]
+    },
+    {
+      "word": "merchandise",
+      "pages": [
+        98,
+        217
+      ]
+    },
+    {
+      "word": "merge",
+      "pages": [
+        98,
+        217
+      ]
+    },
+    {
+      "word": "motive",
+      "pages": [
+        100,
+        218
+      ]
+    },
+    {
+      "word": "multinational",
+      "pages": [
+        101,
+        218
+      ]
+    },
+    {
+      "word": "nomination",
+      "pages": [
+        103,
+        219
+      ]
+    },
+    {
+      "word": "notify",
+      "pages": [
+        104,
+        219
+      ]
     }
   ],
-  "review_source_row_count": 1817,
-  "review_unique_word_count": 1751,
+  "review_source_row_count": 1886,
+  "review_unique_word_count": 1808,
   "review_duplicate_count": 0,
   "review_deduplication_ok": true,
   "per_page_counts": {
@@ -723,6 +807,14 @@
     "209": 8,
     "210": 9,
     "211": 9,
-    "212": 9
+    "212": 9,
+    "213": 7,
+    "214": 10,
+    "215": 9,
+    "216": 8,
+    "217": 9,
+    "218": 9,
+    "219": 9,
+    "220": 8
   }
 }
