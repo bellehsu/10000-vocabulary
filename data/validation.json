@@ -24,7 +24,8 @@
     "data/pages-201-210.csv",
     "data/pages-211-220.csv",
     "data/pages-221-230.csv",
-    "data/pages-231-240.csv"
+    "data/pages-231-240.csv",
+    "data/pages-241-250.csv"
   ],
   "generated_files": [
     "data/pages-011-020.csv",
@@ -49,16 +50,17 @@
     "data/pages-201-210.csv",
     "data/pages-211-220.csv",
     "data/pages-221-230.csv",
-    "data/pages-231-240.csv"
+    "data/pages-231-240.csv",
+    "data/pages-241-250.csv"
   ],
-  "row_count_before": 2046,
-  "row_count_after": 2046,
-  "content_sha256_before": "a3c7acab95ae58bd92a8df557c97f590a0bd7ae5902395a7838f7a9a78d1af0e",
-  "content_sha256_after": "a3c7acab95ae58bd92a8df557c97f590a0bd7ae5902395a7838f7a9a78d1af0e",
+  "row_count_before": 2104,
+  "row_count_after": 2104,
+  "content_sha256_before": "2f3943b5a487a54ca21430248db6999f6c0533d3bc6c51ff729459e2df769a4a",
+  "content_sha256_after": "2f3943b5a487a54ca21430248db6999f6c0533d3bc6c51ff729459e2df769a4a",
   "field_level_content_identical": true,
   "same_page_duplicate_count": 0,
   "same_page_duplicates": [],
-  "cross_page_duplicate_count": 95,
+  "cross_page_duplicate_count": 103,
   "cross_page_duplicates": [
     {
       "word": "abbreviate",
@@ -724,10 +726,66 @@
         137,
         240
       ]
+    },
+    {
+      "word": "stick",
+      "pages": [
+        139,
+        241
+      ]
+    },
+    {
+      "word": "supervise",
+      "pages": [
+        142,
+        242
+      ]
+    },
+    {
+      "word": "suppress",
+      "pages": [
+        142,
+        243
+      ]
+    },
+    {
+      "word": "surplus",
+      "pages": [
+        143,
+        243
+      ]
+    },
+    {
+      "word": "sustain",
+      "pages": [
+        143,
+        243
+      ]
+    },
+    {
+      "word": "tariff",
+      "pages": [
+        144,
+        244
+      ]
+    },
+    {
+      "word": "testify",
+      "pages": [
+        146,
+        245
+      ]
+    },
+    {
+      "word": "tyranny",
+      "pages": [
+        151,
+        247
+      ]
     }
   ],
-  "review_source_row_count": 2046,
-  "review_unique_word_count": 1951,
+  "review_source_row_count": 2104,
+  "review_unique_word_count": 2001,
   "review_duplicate_count": 0,
   "review_deduplication_ok": true,
   "per_page_counts": {
@@ -958,6 +1016,13 @@
     "237": 8,
     "238": 8,
     "239": 9,
-    "240": 6
+    "240": 6,
+    "241": 8,
+    "242": 8,
+    "243": 9,
+    "244": 9,
+    "245": 9,
+    "246": 9,
+    "247": 6
   }
 }

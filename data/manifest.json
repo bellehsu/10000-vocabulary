@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "total_words": 2046,
+  "total_words": 2104,
   "first_page": 12,
-  "last_page": 240,
+  "last_page": 247,
   "pages": [
     12,
     13,
@@ -231,7 +231,14 @@
     237,
     238,
     239,
-    240
+    240,
+    241,
+    242,
+    243,
+    244,
+    245,
+    246,
+    247
   ],
   "ranges": [
     {
@@ -668,7 +675,23 @@
         240
       ],
       "count": 74
+    },
+    {
+      "label": "241-250",
+      "start": 241,
+      "end": 250,
+      "file": "data/pages-241-250.csv",
+      "pages": [
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247
+      ],
+      "count": 58
     }
   ],
-  "content_sha256": "a3c7acab95ae58bd92a8df557c97f590a0bd7ae5902395a7838f7a9a78d1af0e"
+  "content_sha256": "2f3943b5a487a54ca21430248db6999f6c0533d3bc6c51ff729459e2df769a4a"
 }
