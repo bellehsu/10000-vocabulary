@@ -23,7 +23,8 @@
     "data/pages-191-200.csv",
     "data/pages-201-210.csv",
     "data/pages-211-220.csv",
-    "data/pages-221-230.csv"
+    "data/pages-221-230.csv",
+    "data/pages-231-240.csv"
   ],
   "generated_files": [
     "data/pages-011-020.csv",
@@ -47,16 +48,17 @@
     "data/pages-191-200.csv",
     "data/pages-201-210.csv",
     "data/pages-211-220.csv",
-    "data/pages-221-230.csv"
+    "data/pages-221-230.csv",
+    "data/pages-231-240.csv"
   ],
-  "row_count_before": 1963,
-  "row_count_after": 1963,
-  "content_sha256_before": "80c3f2ed92d16fdfdf7a9ee3f2b4a8eb740c64542e60e32a96d9d06cbe05bbea",
-  "content_sha256_after": "80c3f2ed92d16fdfdf7a9ee3f2b4a8eb740c64542e60e32a96d9d06cbe05bbea",
+  "row_count_before": 2031,
+  "row_count_after": 2031,
+  "content_sha256_before": "45c739369622f69315e9dbdc9ba43f5e49dbeec641a30c89f92414ef61fb1988",
+  "content_sha256_after": "45c739369622f69315e9dbdc9ba43f5e49dbeec641a30c89f92414ef61fb1988",
   "field_level_content_identical": true,
   "same_page_duplicate_count": 0,
   "same_page_duplicates": [],
-  "cross_page_duplicate_count": 84,
+  "cross_page_duplicate_count": 93,
   "cross_page_duplicates": [
     {
       "word": "abbreviate",
@@ -645,10 +647,73 @@
         118,
         229
       ]
+    },
+    {
+      "word": "raid",
+      "pages": [
+        118,
+        230
+      ]
+    },
+    {
+      "word": "refute",
+      "pages": [
+        122,
+        231
+      ]
+    },
+    {
+      "word": "renewal",
+      "pages": [
+        123,
+        232
+      ]
+    },
+    {
+      "word": "rental",
+      "pages": [
+        123,
+        232
+      ]
+    },
+    {
+      "word": "resume",
+      "pages": [
+        125,
+        234
+      ]
+    },
+    {
+      "word": "revenue",
+      "pages": [
+        126,
+        235
+      ]
+    },
+    {
+      "word": "rocky",
+      "pages": [
+        127,
+        235
+      ]
+    },
+    {
+      "word": "shareholder",
+      "pages": [
+        131,
+        237
+      ]
+    },
+    {
+      "word": "shipment",
+      "pages": [
+        131,
+        238
+      ]
     }
   ],
-  "review_source_row_count": 1963,
-  "review_unique_word_count": 1879,
+  "review_source_row_count": 2031,
+  "review_unique_word_count": 1938,
   "review_duplicate_count": 0,
   "review_deduplication_ok": true,
   "per_page_counts": {
@@ -868,6 +933,15 @@
     "226": 8,
     "227": 10,
     "228": 8,
-    "229": 8
+    "229": 8,
+    "230": 9,
+    "231": 7,
+    "232": 8,
+    "233": 8,
+    "234": 7,
+    "235": 7,
+    "236": 6,
+    "237": 8,
+    "238": 8
   }
 }
