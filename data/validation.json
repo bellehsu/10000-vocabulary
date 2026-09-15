@@ -22,7 +22,8 @@
     "data/pages-181-190.csv",
     "data/pages-191-200.csv",
     "data/pages-201-210.csv",
-    "data/pages-211-220.csv"
+    "data/pages-211-220.csv",
+    "data/pages-221-230.csv"
   ],
   "generated_files": [
     "data/pages-011-020.csv",
@@ -45,16 +46,17 @@
     "data/pages-181-190.csv",
     "data/pages-191-200.csv",
     "data/pages-201-210.csv",
-    "data/pages-211-220.csv"
+    "data/pages-211-220.csv",
+    "data/pages-221-230.csv"
   ],
-  "row_count_before": 1886,
-  "row_count_after": 1886,
-  "content_sha256_before": "f0486ed2638a6bfe8e3af78db385322516a56bbadef477e5aed1258137039688",
-  "content_sha256_after": "f0486ed2638a6bfe8e3af78db385322516a56bbadef477e5aed1258137039688",
+  "row_count_before": 1963,
+  "row_count_after": 1963,
+  "content_sha256_before": "80c3f2ed92d16fdfdf7a9ee3f2b4a8eb740c64542e60e32a96d9d06cbe05bbea",
+  "content_sha256_after": "80c3f2ed92d16fdfdf7a9ee3f2b4a8eb740c64542e60e32a96d9d06cbe05bbea",
   "field_level_content_identical": true,
   "same_page_duplicate_count": 0,
   "same_page_duplicates": [],
-  "cross_page_duplicate_count": 78,
+  "cross_page_duplicate_count": 84,
   "cross_page_duplicates": [
     {
       "word": "abbreviate",
@@ -601,10 +603,52 @@
         104,
         219
       ]
+    },
+    {
+      "word": "optional",
+      "pages": [
+        108,
+        221
+      ]
+    },
+    {
+      "word": "outbreak",
+      "pages": [
+        108,
+        221
+      ]
+    },
+    {
+      "word": "personnel",
+      "pages": [
+        112,
+        224
+      ]
+    },
+    {
+      "word": "proclaim",
+      "pages": [
+        115,
+        227
+      ]
+    },
+    {
+      "word": "prosecute",
+      "pages": [
+        116,
+        228
+      ]
+    },
+    {
+      "word": "quota",
+      "pages": [
+        118,
+        229
+      ]
     }
   ],
-  "review_source_row_count": 1886,
-  "review_unique_word_count": 1808,
+  "review_source_row_count": 1963,
+  "review_unique_word_count": 1879,
   "review_duplicate_count": 0,
   "review_deduplication_ok": true,
   "per_page_counts": {
@@ -815,6 +859,15 @@
     "217": 9,
     "218": 9,
     "219": 9,
-    "220": 8
+    "220": 8,
+    "221": 10,
+    "222": 8,
+    "223": 7,
+    "224": 9,
+    "225": 9,
+    "226": 8,
+    "227": 10,
+    "228": 8,
+    "229": 8
   }
 }
