@@ -55,14 +55,14 @@
     "data/pages-241-250.csv",
     "data/pages-251-260.csv"
   ],
-  "row_count_before": 2116,
-  "row_count_after": 2116,
-  "content_sha256_before": "d083093292ca529af81fbb628d7ef5c8af6face40c767f2a1652669cc4e30175",
-  "content_sha256_after": "d083093292ca529af81fbb628d7ef5c8af6face40c767f2a1652669cc4e30175",
+  "row_count_before": 2141,
+  "row_count_after": 2141,
+  "content_sha256_before": "7709fed008847ae7bb3fdf2dddb598531b5a6df3bfb1c8fcd2fc2df3bf534d2c",
+  "content_sha256_after": "7709fed008847ae7bb3fdf2dddb598531b5a6df3bfb1c8fcd2fc2df3bf534d2c",
   "field_level_content_identical": true,
   "same_page_duplicate_count": 0,
   "same_page_duplicates": [],
-  "cross_page_duplicate_count": 104,
+  "cross_page_duplicate_count": 107,
   "cross_page_duplicates": [
     {
       "word": "abbreviate",
@@ -786,6 +786,27 @@
       ]
     },
     {
+      "word": "ulcer",
+      "pages": [
+        151,
+        248
+      ]
+    },
+    {
+      "word": "unemployment",
+      "pages": [
+        153,
+        248
+      ]
+    },
+    {
+      "word": "vacuum",
+      "pages": [
+        155,
+        249
+      ]
+    },
+    {
       "word": "wholesale",
       "pages": [
         158,
@@ -793,8 +814,8 @@
       ]
     }
   ],
-  "review_source_row_count": 2116,
-  "review_unique_word_count": 2012,
+  "review_source_row_count": 2141,
+  "review_unique_word_count": 2034,
   "review_duplicate_count": 0,
   "review_deduplication_ok": true,
   "per_page_counts": {
@@ -1033,6 +1054,9 @@
     "245": 9,
     "246": 9,
     "247": 6,
+    "248": 9,
+    "249": 8,
+    "250": 8,
     "251": 7,
     "252": 5
   }
