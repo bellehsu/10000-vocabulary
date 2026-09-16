@@ -26,7 +26,8 @@
     "data/pages-221-230.csv",
     "data/pages-231-240.csv",
     "data/pages-241-250.csv",
-    "data/pages-251-260.csv"
+    "data/pages-251-260.csv",
+    "data/pages-261-270.csv"
   ],
   "generated_files": [
     "data/pages-011-020.csv",
@@ -53,16 +54,17 @@
     "data/pages-221-230.csv",
     "data/pages-231-240.csv",
     "data/pages-241-250.csv",
-    "data/pages-251-260.csv"
+    "data/pages-251-260.csv",
+    "data/pages-261-270.csv"
   ],
-  "row_count_before": 2203,
-  "row_count_after": 2203,
-  "content_sha256_before": "202b3083ed6a75ef736530aa6d1de7b572d137c65303efaa992600c75a3d70cc",
-  "content_sha256_after": "202b3083ed6a75ef736530aa6d1de7b572d137c65303efaa992600c75a3d70cc",
+  "row_count_before": 2228,
+  "row_count_after": 2228,
+  "content_sha256_before": "9d7ed17c58cc5565a714a5c482fd9b935c416623e688817669a97a1d30e5c6a7",
+  "content_sha256_after": "9d7ed17c58cc5565a714a5c482fd9b935c416623e688817669a97a1d30e5c6a7",
   "field_level_content_identical": true,
   "same_page_duplicate_count": 0,
   "same_page_duplicates": [],
-  "cross_page_duplicate_count": 117,
+  "cross_page_duplicate_count": 118,
   "cross_page_duplicates": [
     {
       "word": "abbreviate",
@@ -183,6 +185,13 @@
       "pages": [
         17,
         165
+      ]
+    },
+    {
+      "word": "alleviate",
+      "pages": [
+        165,
+        261
       ]
     },
     {
@@ -886,8 +895,8 @@
       ]
     }
   ],
-  "review_source_row_count": 2203,
-  "review_unique_word_count": 2084,
+  "review_source_row_count": 2228,
+  "review_unique_word_count": 2108,
   "review_duplicate_count": 0,
   "review_deduplication_ok": true,
   "per_page_counts": {
@@ -1137,6 +1146,9 @@
     "257": 8,
     "258": 10,
     "259": 9,
-    "260": 8
+    "260": 8,
+    "261": 9,
+    "262": 8,
+    "263": 8
   }
 }
