@@ -28,7 +28,8 @@
     "data/pages-241-250.csv",
     "data/pages-251-260.csv",
     "data/pages-261-270.csv",
-    "data/pages-271-280.csv"
+    "data/pages-271-280.csv",
+    "data/pages-281-290.csv"
   ],
   "generated_files": [
     "data/pages-011-020.csv",
@@ -57,16 +58,17 @@
     "data/pages-241-250.csv",
     "data/pages-251-260.csv",
     "data/pages-261-270.csv",
-    "data/pages-271-280.csv"
+    "data/pages-271-280.csv",
+    "data/pages-281-290.csv"
   ],
-  "row_count_before": 2377,
-  "row_count_after": 2377,
-  "content_sha256_before": "a8acb3b518bb4db564f8f84f0c19b29e473de91fd8c1bc01f1775f715d029cc0",
-  "content_sha256_after": "a8acb3b518bb4db564f8f84f0c19b29e473de91fd8c1bc01f1775f715d029cc0",
+  "row_count_before": 2456,
+  "row_count_after": 2456,
+  "content_sha256_before": "93d5ca8132289a5632d0a451d8902591bb5953b70b6b0ba58f92c9f496f0d0ef",
+  "content_sha256_after": "93d5ca8132289a5632d0a451d8902591bb5953b70b6b0ba58f92c9f496f0d0ef",
   "field_level_content_identical": true,
   "same_page_duplicate_count": 0,
   "same_page_duplicates": [],
-  "cross_page_duplicate_count": 125,
+  "cross_page_duplicate_count": 132,
   "cross_page_duplicates": [
     {
       "word": "abbreviate",
@@ -309,6 +311,20 @@
       ]
     },
     {
+      "word": "captivity",
+      "pages": [
+        32,
+        281
+      ]
+    },
+    {
+      "word": "catastrophe",
+      "pages": [
+        177,
+        283
+      ]
+    },
+    {
       "word": "caution",
       "pages": [
         32,
@@ -337,10 +353,38 @@
       ]
     },
     {
+      "word": "circumference",
+      "pages": [
+        178,
+        285
+      ]
+    },
+    {
       "word": "cling",
       "pages": [
         36,
         179
+      ]
+    },
+    {
+      "word": "coalition",
+      "pages": [
+        179,
+        286
+      ]
+    },
+    {
+      "word": "commonplace",
+      "pages": [
+        181,
+        288
+      ]
+    },
+    {
+      "word": "compact",
+      "pages": [
+        39,
+        288
       ]
     },
     {
@@ -362,6 +406,13 @@
       "pages": [
         41,
         182
+      ]
+    },
+    {
+      "word": "compress",
+      "pages": [
+        41,
+        289
       ]
     },
     {
@@ -946,8 +997,8 @@
       ]
     }
   ],
-  "review_source_row_count": 2377,
-  "review_unique_word_count": 2250,
+  "review_source_row_count": 2456,
+  "review_unique_word_count": 2322,
   "review_duplicate_count": 0,
   "review_deduplication_ok": true,
   "per_page_counts": {
@@ -1217,6 +1268,15 @@
     "277": 9,
     "278": 10,
     "279": 8,
-    "280": 8
+    "280": 8,
+    "281": 10,
+    "282": 8,
+    "283": 9,
+    "284": 9,
+    "285": 9,
+    "286": 9,
+    "287": 9,
+    "288": 8,
+    "289": 8
   }
 }
