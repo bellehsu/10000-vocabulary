@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "total_words": 2315,
+  "total_words": 2369,
   "first_page": 12,
-  "last_page": 273,
+  "last_page": 279,
   "pages": [
     12,
     13,
@@ -263,7 +263,13 @@
     270,
     271,
     272,
-    273
+    273,
+    274,
+    275,
+    276,
+    277,
+    278,
+    279
   ],
   "ranges": [
     {
@@ -765,10 +771,16 @@
       "pages": [
         271,
         272,
-        273
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279
       ],
-      "count": 27
+      "count": 81
     }
   ],
-  "content_sha256": "9d0f814ef85aa794dc3bc59b9503b47dd4fbfc62a8698d609f414a63e1f20314"
+  "content_sha256": "3a9023676c2392d9be67cbbcb4d95cb0010fa89e3dd8685931f622efdc10ed67"
 }
