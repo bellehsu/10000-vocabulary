@@ -1,84 +1,75 @@
-word,part_of_speech,example,example_zh,chinese,synonyms,antonyms,memory_hint,page,page_end,difficulty
-raid,noun/verb,A policeman was killed in the car raid. Customs men raided Daniel's factory last evening.,一名警察在這次汽車襲擊中喪生。昨晚海關人員突襲了丹尼爾的工廠。,襲擊；突襲；劫掠,attack; assault; invade,,"raid 可作名詞或動詞，表示突襲、襲擊；動詞三態為 raid, raided, raided。",230,,4
-ratification,noun,The invoice is subject to our ratification.,這張發票要經我們批准後才有效。,批准；認可,acceptance,,ratify 表「批准、認可」，-ation 為名詞字尾。,230,,4
-rationalize,verb,"Grandfather is trying to rationalize what happened, but he cannot do it.",祖父一直試圖將所發生的一切合理化，但他做不到。,使合理化,justify,,rationalize 表把事情解釋得合理。,230,,5
-real estate,noun,Sherry's father is a real estate agent.,雪莉的父親是房地產仲介。,房地產；不動產,,,real estate 指土地、房屋等不動產。,230,,5
-recall,verb,Jane recalled that her son had left early this morning.,珍想起她的兒子今天一早就離開了。,回想；召回；撤銷；取消,remember; recollect,,recall 可指回想，也可指召回或撤銷。,230,,5
-receivable,adjective,Do you think Mary's proposal is receivable?,你認為瑪麗的建議可接受嗎？,可接受的；可信的,acceptable,unacceptable,receive + able，表示可以接受的。,230,,4
-recognize,verb,Can you recognize Linda from this picture?,你能從這張照片中認出琳達嗎？,認出；認可；承認,acknowledge,conceal; forget,recognize 表辨認出、承認或認可。,230,,5
-recuperate,verb,Charles is recuperating from illness.,查爾斯病後正在漸漸康復。,恢復；復原,recover; rally,,"recuperate 指病後恢復健康；三態 recuperate, recuperated, recuperated。",230,,5
-reduce,verb,Our family doctor says that taking extra vitamins may reduce your liability to colds.,我們的家庭醫生說多吃一些維生素會減少你得感冒的可能性。,減少；降低；減輕,abate; cut; decrease,add; aggravate,"reduce 表減少、降低；動詞三態為 reduce, reduced, reduced。",230,231,5
-referendum,noun,The local authorities agreed to hold a referendum on the issue in May.,當地政府同意在五月舉行公民投票來決定這個問題。,公民投票；請示書,,,referendum 指把公共議題交由公民投票決定；複數為 referendums。,231,,3
-reform,verb/noun,People firmly demand to reform social abuses. The people's request for reforms must be made to the education system.,人們強烈要求革除社會弊端。人們要求對教育體制進行改革。,改革；改良；改造,change; convert,stabilize,re + form，表示重新塑造，引申為改革、改良。,231,,5
-refute,verb,Joan's argument can not be refuted at the moment.,瓊的這一論點時下還無法駁斥。,駁斥；反駁；駁倒,confute; disprove,support; approve,refute 指用證據或論證駁倒。,231,,5
-regulation,noun,It's wrong of anyone to get around the regulation.,任何人存心逃避規章制度都是不對的。,規則；規章,rule; ordinance,,regulation 指規則、規章或管理制度。,231,,5
-rehabilitate,verb,The accident prompted Hill to rehabilitate his insurance.,這件意外事故促使希爾恢復投保。,修復；恢復（職位等）,renew; reinstate,,rehabilitate 表修復、復原或使恢復原有地位。,231,,5
-reimbursement,noun,The bank has been pressing Tony for reimbursement of the loan.,銀行催促湯尼償還貸款。,償還；賠償,repayment; refund,,reimburse 表償還、補償，-ment 為名詞字尾。,231,,4
-relapse,verb/noun,"Juan kept off smoking for a few days, but now he has relapsed. Daniel had a relapse and died soon after.",胡安戒菸三天，可是現在又恢復抽菸。丹尼爾舊病復發，不久就死去了。,舊病復發；再惡化,regress; return,,re + lapse，表示回到先前不良狀態，可作動詞或名詞。,231,,5
-relieve,verb,The doctor told me this medicine would relieve my headache.,醫生說這藥將減輕我的頭痛。,減輕；救濟；解除,free; release,worry; aggravate,"relieve 表減輕痛苦、解除負擔；三態 relieve, relieved, relieved。",232,,4
-reluctant,adjective,This young man was very reluctant to help others.,這個年輕人不太願意幫助別人。,勉強的；不情願的,unwilling; adverse,willing,reluctant 常接 to V，表示不願意做某事；比較級 more reluctant。,232,,5
-remain,verb,My friends remain in Beijing until June.,我的朋友們在北京一直待到六月。,剩下；保持,last; persist; stay,depart; leave; perish,"remain 表留下、保持；動詞三態 remain, remained, remained。",232,,5
-remind,verb,This picture reminds me of my hometown.,這幅圖畫使我想起我的家鄉。,提醒；使想起,caution; notify,forget,remind 常用 remind A of B，表示使 A 想起 B。,232,,5
-remuneration,noun,A postman's remuneration is £150 per week.,郵差的報酬為每週一百五十英鎊。,報酬,salary; earnings,,remuneration 指工作或服務所得的報酬。,232,,5
-renewal,noun,Our manager is very delighted at the renewal of negotiation.,我們經理對談判能重新開始感到很高興。,更新；革新；復興,renaissance,,re + new + al，表示重新更新的過程。,232,,5
-renovation,noun,The entire fabric of the old library needs renovation.,這座舊圖書館的全部結構需要維修翻新。,更新；修理；修繕,restoration,,renovation 指翻修、整修或更新。,232,,5
-rental,noun/adjective,Video rental is usually £3 per week. Arthur has a video rental shop.,錄影帶出租通常每週三英鎊。亞瑟經營一家錄影帶出租店。,出租；租金；租借的；出租的,hire; lease,,rental 可作名詞表示出租或租金，也可作形容詞表示租借的。,232,,5
-replace,verb,Nowadays robots are replacing workers on assembly lines.,如今機器人逐漸代替了裝配線上的工人。,把…換回；取代；以…代替,put back; return,remove,replace 常用 replace A with/by B，表示用 B 取代 A。,233,,5
-represent,verb,The dove represents peace in many countries.,在許多國家，鴿子象徵和平。,描述；表示；象徵；代表,symbolize; depict,misrepresent,"represent 表代表、象徵；三態 represent, represented, represented。",233,,5
-repressive,adjective,Everyone knows the military regime was repressive.,每個人都知道軍閥統治得很鎮壓。,壓抑的；抑制的；鎮壓的,oppressive,,repressive 指壓制性的、鎮壓性的。,233,,4
-reputation,noun,This supermarket has a fine reputation.,這家超市信譽很好。,名聲；名望；聲望,status; rank,opprobrium,reputation 指名聲、公眾評價，可好可壞。,233,,4
-rescind,verb,Brown's driver licence was rescinded after the crash.,布朗的駕駛執照在事故後被吊銷。,廢除；取消,repeal; withdraw,,"rescind 指正式撤銷、廢止；三態 rescind, rescinded, rescinded。",233,,5
-reserve,noun/verb,People are used to keeping a large reserve of cabbage for winter in the north of China. Blair has reserved a table at the new restaurant.,在中國北方，人們常儲存大量白菜以備冬天之用。布萊爾已在那家新飯店預訂了一桌菜。,儲藏；預備；保留；保留地；儲備；預定,stockpile; retain; keep,forsake,reserve 可作名詞或動詞，表示保留、儲備或預訂。,233,,5
-resist,verb,"Generally speaking, a healthy body resists disease.",一般而言，健康的身體能抵抗疾病。,抵抗；忍住,oppose; withstand,support; submit,resist 表抵抗、忍住，後面可接名詞或 V-ing。,233,,5
-resource,noun,Resources management is an important business skill.,資源管理是一項重要的經營技能。,資源,property; wealth,,resource 的名詞複數為 resources。,233,,3
-restore,verb,"Generally speaking, the stolen property must be restored to its owner.",一般而言，贓物必須歸還原主。,回復；恢復；歸還,bring back; recover,,"restore 表恢復原狀或歸還；三態 restore, restored, restored。",234,,5
-restriction,noun,The sale of firearms is subject to many legal restrictions in China.,在中國，出售槍枝受到許多法律的限制。,限制；約束,contraction; limit,freedom; permission,restrict 表限制，-ion 為名詞字尾。,234,,5
-resume,noun/verb,Jennifer is required to submit a resume firstly. Mrs. Hughes resumed her maiden name after the divorce.,珍妮佛被要求先交一份履歷表。休斯太太離婚後恢復使用娘家姓。,摘要；概括；履歷；重新開始；繼續；恢復,continue,terminate,resume 可作名詞 résumé（履歷），也可作動詞表示恢復、繼續。,234,,5
-resuscitate,verb,"In this area, all attempts to resuscitate the fishing industry were foredoomed to failure.",在這個地區，所有讓漁業復甦的嘗試都註定失敗。,使復活；使甦醒,resurrect; renew,,"resuscitate 指使恢復生機、復甦；三態 resuscitate, resuscitated, resuscitated。",234,,5
-retainer,noun,A politician should be a retainer of the people.,政治家應是人民的公僕。,受託；公僕；侍從,servant,master,retainer 可指受雇服務者、侍從或長期受聘者。,234,,5
-retaliation,noun,Heaven's retaliation is slow but sure.,天的報應雖慢，卻是一定會來的。,報復；反擊,vengeance,forgiveness,retaliation 指報復、反擊；retaliate 為動詞。,234,,5
-retreat,noun/verb,"Marvin likes to go to his mountain retreat for the weekend. As a friend, I will not retreat from my commitments.",馬文週末喜歡去山中的休養所。作為朋友，我不會從我的承諾中退縮。,撤退；退卻；休養所,incline,access; advance,retreat 可作名詞表示休養所，也可作動詞表示撤退、退縮。,234,,5
-revenue,noun,"At present, oil revenue has risen with the rise in the dollar.",目前石油收入因美元增值而增加。,收入；稅收,gain; income,expenditure,revenue 指收入、營收或稅收。,235,,3
-revile,verb,Mario's neighbors both loved and reviled him in the same breath.,馬里奧的鄰居喜愛他的同時又辱罵他。,辱罵；斥責,vilify; vituperate,love; like,"revile 指以惡言辱罵、斥責；三態 revile, reviled, reviled。",235,,5
-rhetoric,noun,His speech contains impassioned rhetoric.,他的演講含有熱情洋溢的修辭。,修辭學；浮誇的語言,eloquence,,rhetoric 除指修辭學，也可指華麗或浮誇的言辭。,235,,5
-risk,noun/verb,She was ready for any risks. The brave mother risked her life to save her child.,她準備冒一切風險。那位勇敢的母親冒著生命危險去救她的孩子。,風險；危險；冒…的危險,peril; danger; chance; hazard,safety; protect,"risk 可作名詞或動詞；動詞三態 risk, risked, risked。",235,,5
-rocky,adjective,Juan drives carefully up the rocky lane.,胡安小心地沿著石頭小巷開去。,岩石的；頑固的；不穩的,stony; rough,,rocky 的比較級為 rockier，最高級 rockiest。,235,,4
-ruin,noun/verb,476 AD saw the ruin of the Roman Empire. The hurricane ruined our holiday.,公元四七六年羅馬帝國滅亡。颶風把我們的假期徹底搞毀了。,毀滅；廢墟；遺跡；（使）破產,ruination; destroy; demolish,recovery; restore,"ruin 可作名詞或動詞；動詞三態 ruin, ruined, ruined。",235,,5
-sacrifice,noun/verb,"Generally speaking, parents often make sacrifices for their children in China. The ancient Greeks sacrificed lambs or calves before engaging in battle.",一般而言，中國的父母親常常為子女做出犧牲。古希臘人在戰前都要獻祭羔羊或小牛。,祭品；犧牲；犧牲；獻出；獻祭,forfeit; forfeiture; give; forego,,"sacrifice 可作名詞或動詞；三態 sacrifice, sacrificed, sacrificed。",235,236,5
-salary,noun,My money comes mainly from salary.,我的錢主要來自工資。,工資；薪水,pay; wage,nonpayment,salary 指固定薪資、薪水。,236,,4
-sample,noun/verb,Please send me a sample copy of the book. The inspector sampled the stuff and found it satisfactory.,請寄給我一本樣品書。那位檢驗員抽樣檢查這批材料，而且感到滿意。,範例；樣品；標本；抽取樣品,specimen; try; try out; taste,,"sample 可作名詞或動詞；三態 sample, sampled, sampled。",236,,5
-sanction,noun/verb,"Nowadays there is no sanction for autocracy. At this point, I can't sanction your methods.",如今誰也不贊成獨裁統治。在這點上，我不會同意你的辦法。,批准；認可；制裁；處罰；同意,approval; support; permit; approve,disapproval; proscribe,"sanction 可指批准、認可，也可指制裁；動詞三態 sanction, sanctioned, sanctioned。",236,,4
-satellite,noun,The moon is the Earth's satellite.,月球是地球的衛星。,衛星；人造衛星,spacecraft,,satellite 的名詞複數為 satellites。,236,,4
-saving,noun,"Generally speaking, saving is getting.",一般而言，節約等於增加收入。,存款；節約,deposit,waste,saving 可表示存款或節約。,236,,4
-scoop,noun/verb,"After lunch, one of my colleagues likes to have two scoops of ice cream. Badgers scoop out a hole in the sand.",午餐後，我的一位同事喜歡吃兩球冰淇淋。獾在沙地上挖了個洞。,鏟子；舀取；獨家新聞；汲取；挖掘,ladle; spoon; dig; pick up,,"scoop 可作名詞或動詞；三態 scoop, scooped, scooped。",236,,4
-scrutinize,verb,The jeweler scrutinized the diamond for flaws.,那位寶石商仔細察看鑽石有無瑕疵。,細察；徹查,examine; explore,,"scrutinize 表仔細檢查、審視；三態 scrutinize, scrutinized, scrutinized。",237,,5
-secure,adjective/verb,I hope my boyfriend has made me feel secure. You had better secure all the doors and windows before leaving.,我希望我的男友使我覺得安心。要把所有門窗關好再出門。,安全的；無慮的；使…安全；固定；獲得,protected; safe; acquire; get; fix,anxious; endanger; open,secure 可作形容詞表示安全的，也可作動詞表示確保、固定或取得。,237,,5
-seek,verb,Water seeks its own level.,水能找到自己的水平。,尋求；尋找；搜索,search; look for,hide,"seek 為不規則動詞：seek, sought, sought。",237,,5
-seize,verb,"Generally speaking, people should seize each chance, otherwise they'll regret it.",一般而言，人們應該抓住任何一個機會，否則就會後悔。,抓住；捉住,arrest; capture,escape; loose,"seize 表抓住、把握；動詞三態 seize, seized, seized。",237,,5
-senior,noun/adjective,Anita's boyfriend is her senior by six years. My father was a senior officer in the company.,安尼塔的男朋友比她大六歲。他父親曾是那家公司的高級職員。,年長者；上司；年長的；高級的；資深的,elder; older,junior; younger,senior 可作名詞或形容詞，表示年長者、上司或資深的。,237,,4
-settle,verb,Nita cannot settle to work this afternoon.,今天下午尼特無法定下心來工作。,安頓；安定；定居；決定,arrange; reside,unsettle,"settle 表安頓、定居、解決或使平靜；三態 settle, settled, settled。",237,,5
-sexism,noun,"At present, there is still a lot of subtle sexism on television and in magazines.",如今在電視和雜誌上仍存在許多性別歧視的現象。,性別歧視,discrimination,,sex + ism，指以性別為基礎的歧視。,237,,4
-shareholder,noun,The shareholders ask for a general meeting.,股東們要求召開一個股東大會。,股東,stockholder,,share 表股份，holder 表持有人，合起來即股東；複數 shareholders。,237,238,5
-shipment,noun,We think better to postpone the shipment than to cancel the contract.,我們認為延期裝運比取消合約好。,裝運；載運的貨物,cargo; lading,,shipment 可指裝運行為或一批貨物。,238,,5
-showdown,noun,We have to force a showdown.,我們得迫使對方攤牌。,攤牌,confrontation,,showdown 指決定性對決或攤牌。,238,,4
-shrug,noun/verb,"With a shrug, he went out of the room.",他聳一下肩，走出房間。,聳肩,,,"shrug 可作名詞或動詞；動詞三態 shrug, shrugged, shrugged。",238,,5
-sidekick,noun,Ally has been Betty's sidekick since primary school.,打從小學開始，艾麗和貝蒂一直就是好朋友。,夥伴；共犯,buddy; pal,,sidekick 指親近的夥伴、助手或同夥。,238,,5
-skeleton,noun,The shell of a snail is its skeleton.,蝸牛的殼就是它的骨骼。,骨架；骨骼,frame; structure,,skeleton 的名詞複數為 skeletons。,238,,5
-skillful,adjective,Parker is a skillful football player.,帕克是位熟練的足球員。,熟練的；擅長的,adept; expert,awkward; unskillful,skillful 的比較級 more skillful，最高級 most skillful。,238,,5
-skull,noun,Can't David get it into his thick skull that Betty likes him?,大衛難道還不明白貝蒂喜歡他嗎？,頭蓋骨；骷髏,brain,,skull 的名詞複數為 skulls。,238,,5
-sluggish,adjective,There is a sluggish management team in our company.,我們公司有一個管理遲鈍的團隊。,偷懶的；遲鈍的,dull; listless; inert,hardworking,sluggish 的比較級 more sluggish，最高級 most sluggish。,238,,5
-smolder,verb,Sophie's eyes smolder with jealousy.,蘇菲的眼睛流露出妒忌的嫉妒目光。,無火焰地悶燒；壓抑,,,"smolder 表悶燒，也可比喻情緒暗中燃燒；動詞三態為 smolder, smoldered, smoldered。",239,,5
-soar,verb,A glider can soar for many miles.,滑翔機可以滑行好多英里。,高飛；高漲；猛增,ascend; aspire; fly,,soar 表高飛，也可引申為價格、數字快速上升。,239,,3
-socialize,verb,"In our company, the cafe is a place where colleagues can socialize with each other.",在我們公司，咖啡廳是同事們相互交流的地方。,參與社交；交際,civilize; entertain,capitalize,socialize 指與人交往、參與社交活動。,239,,4
-software,noun,Writing the software for a computer centre is my boyfriend's present job.,為一家電腦中心寫軟體是我男友現在的工作。,軟體,soft system,hardware,soft + ware，指電腦程式與軟體系統。,239,,5
-solar,adjective,The solar cell can convert the energy of sunlight into electric energy.,太陽能電池能把陽光的能量轉化為電能。,太陽的；日光的,,,solar 指太陽的、利用太陽能的。,239,,4
-sort,noun/verb,What sort of fish do you want? The manager asked Jenny to sort these apples by size.,你要哪一種類的魚？經理要求珍妮按大小把這些蘋果分好。,種類；類別；分類；整理,kind; style; arrange; solve,disorder,"sort 可作名詞表示種類，也可作動詞表示分類、整理；三態 sort, sorted, sorted。",239,,5
-source,noun,The sun is the ultimate source of energy.,太陽是能量的最基本來源。,來源,beginning; origin,effect; end,source 指來源、源頭；名詞複數為 sources。,239,,4
-spearhead,noun/verb,A spearhead of the airborne troops led the offensive. Our manager asked Hughes to spearhead the sales campaign.,空降兵在那次進攻中打頭陣。我們經理要求休斯帶領促銷活動。,矛頭；先鋒部；做先鋒；帶頭,leader; troop; be the leader of,,spear + head，原指矛頭，引申為先鋒或帶頭領導。,239,,5
-species,noun,The giant panda has become an endangered species.,大熊貓已成了一種瀕臨滅絕的物種。,物種；種類,kind; sort,,species 單複數同形，表示物種、種類。,239,240,5
-spectacular,adjective,The athlete made a spectacular jump in the swimming pool.,那位運動員在游泳池裡做了一個驚人的跳躍。,驚人的；壯觀的,dramatic; striking,,spectacular 指非常壯觀、引人注目的。,240,,5
-spell,noun/verb,"Our colleagues are expecting a spell of sunshine. l-o-v-e spells ""love"".",我們的同事們正盼望晴朗的一天。l-o-v-e 拼成「love」一字。,一段時間；拼寫；咒語；拼寫,period of time; spell out; write,,spell 可作名詞表示一段時間或咒語，也可作動詞表示拼寫。,240,,4
-spiritual,adjective,The Pope is the spiritual leader of many Christians.,教皇是許多基督徒的精神領袖。,精神的；心靈的,religious,substantial,spiritual 指精神、心靈或宗教層面的。,240,,5
-sponsor,noun/verb,You cannot get a work visa without an American sponsor. The rich lady had offered to sponsor a poor boy at university.,如果沒有一位美國保證人，你不能獲得工作簽證。那位富有的女士贊助那位窮男孩上大學。,保證人；擔保人；贊助者；贊助；資助,patron; supporter; back; patronize,,"sponsor 可作名詞或動詞；三態 sponsor, sponsored, sponsored。",240,,5
-sprain,noun/verb,"Peter thought his wrist might be broken, but it was just a bad sprain. The famous athlete's odds are very poor after he sprained his wrist.",彼得以為他的手腕斷了，但其實只是嚴重的扭傷。那位著名的運動選手扭傷了手腕，獲勝的可能性極小。,扭傷,wrench; injury,,"sprain 可作名詞或動詞；三態 sprain, sprained, sprained。",240,,5
-stabilize,verb,Today the patient's condition has stabilized.,今天那位病人的狀態穩定下來了。,使穩定；使穩固,brace; steady,,"stabilize 表使穩定、使穩固；三態 stabilize, stabilized, stabilized。",240,,4
+word,part_of_speech,example,corrected_example,example_zh,chinese,synonyms,antonyms,memory_hint,page,page_end,difficulty
+referendum,noun,The local authorities agreed to hold a referendum on the issue in May.,,當地政府同意在五月舉行公民投票來決定這個問題。,公民投票；請示書,,,referendum 指把公共議題交由公民投票決定；複數為 referendums。,231,,3
+reform,verb/noun,People firmly demand to reform social abuses. The people's request for reforms must be made to the education system.,,人們強烈要求革除社會弊端。人們要求對教育體制進行改革。,改革；改良；改造,change; convert,stabilize,re + form，表示重新塑造，引申為改革、改良。,231,,5
+refute,verb,Joan's argument can not be refuted at the moment.,,瓊的這一論點時下還無法駁斥。,駁斥；反駁；駁倒,confute; disprove,support; approve,refute 指用證據或論證駁倒。,231,,5
+regulation,noun,It's wrong of anyone to get around the regulation.,,任何人存心逃避規章制度都是不對的。,規則；規章,rule; ordinance,,regulation 指規則、規章或管理制度。,231,,5
+rehabilitate,verb,The accident prompted Hill to rehabilitate his insurance.,,這件意外事故促使希爾恢復投保。,修復；恢復（職位等）,renew; reinstate,,rehabilitate 表修復、復原或使恢復原有地位。,231,,5
+reimbursement,noun,The bank has been pressing Tony for reimbursement of the loan.,,銀行催促湯尼償還貸款。,償還；賠償,repayment; refund,,reimburse 表償還、補償，-ment 為名詞字尾。,231,,4
+relapse,verb/noun,"Juan kept off smoking for a few days, but now he has relapsed. Daniel had a relapse and died soon after.",,胡安戒菸三天，可是現在又恢復抽菸。丹尼爾舊病復發，不久就死去了。,舊病復發；再惡化,regress; return,,re + lapse，表示回到先前不良狀態，可作動詞或名詞。,231,,5
+relieve,verb,The doctor told me this medicine would relieve my headache.,,醫生說這藥將減輕我的頭痛。,減輕；救濟；解除,free; release,worry; aggravate,"relieve 表減輕痛苦、解除負擔；三態 relieve, relieved, relieved。",232,,4
+reluctant,adjective,This young man was very reluctant to help others.,,這個年輕人不太願意幫助別人。,勉強的；不情願的,unwilling; adverse,willing,reluctant 常接 to V，表示不願意做某事；比較級 more reluctant。,232,,5
+remain,verb,My friends remain in Beijing until June.,,我的朋友們在北京一直待到六月。,剩下；保持,last; persist; stay,depart; leave; perish,"remain 表留下、保持；動詞三態 remain, remained, remained。",232,,5
+remind,verb,This picture reminds me of my hometown.,,這幅圖畫使我想起我的家鄉。,提醒；使想起,caution; notify,forget,remind 常用 remind A of B，表示使 A 想起 B。,232,,5
+remuneration,noun,A postman's remuneration is £150 per week.,,郵差的報酬為每週一百五十英鎊。,報酬,salary; earnings,,remuneration 指工作或服務所得的報酬。,232,,5
+renewal,noun,Our manager is very delighted at the renewal of negotiation.,,我們經理對談判能重新開始感到很高興。,更新；革新；復興,renaissance,,re + new + al，表示重新更新的過程。,232,,5
+renovation,noun,The entire fabric of the old library needs renovation.,,這座舊圖書館的全部結構需要維修翻新。,更新；修理；修繕,restoration,,renovation 指翻修、整修或更新。,232,,5
+rental,noun/adjective,Video rental is usually £3 per week. Arthur has a video rental shop.,,錄影帶出租通常每週三英鎊。亞瑟經營一家錄影帶出租店。,出租；租金；租借的；出租的,hire; lease,,rental 可作名詞表示出租或租金，也可作形容詞表示租借的。,232,,5
+replace,verb,Nowadays robots are replacing workers on assembly lines.,,如今機器人逐漸代替了裝配線上的工人。,把…換回；取代；以…代替,put back; return,remove,replace 常用 replace A with/by B，表示用 B 取代 A。,233,,5
+represent,verb,The dove represents peace in many countries.,,在許多國家，鴿子象徵和平。,描述；表示；象徵；代表,symbolize; depict,misrepresent,"represent 表代表、象徵；三態 represent, represented, represented。",233,,5
+repressive,adjective,Everyone knows the military regime was repressive.,,每個人都知道軍閥統治得很鎮壓。,壓抑的；抑制的；鎮壓的,oppressive,,repressive 指壓制性的、鎮壓性的。,233,,4
+reputation,noun,This supermarket has a fine reputation.,,這家超市信譽很好。,名聲；名望；聲望,status; rank,opprobrium,reputation 指名聲、公眾評價，可好可壞。,233,,4
+rescind,verb,Brown's driver licence was rescinded after the crash.,,布朗的駕駛執照在事故後被吊銷。,廢除；取消,repeal; withdraw,,"rescind 指正式撤銷、廢止；三態 rescind, rescinded, rescinded。",233,,5
+reserve,noun/verb,People are used to keeping a large reserve of cabbage for winter in the north of China. Blair has reserved a table at the new restaurant.,,在中國北方，人們常儲存大量白菜以備冬天之用。布萊爾已在那家新飯店預訂了一桌菜。,儲藏；預備；保留；保留地；儲備；預定,stockpile; retain; keep,forsake,reserve 可作名詞或動詞，表示保留、儲備或預訂。,233,,5
+resist,verb,"Generally speaking, a healthy body resists disease.",,一般而言，健康的身體能抵抗疾病。,抵抗；忍住,oppose; withstand,support; submit,resist 表抵抗、忍住，後面可接名詞或 V-ing。,233,,5
+resource,noun,Resources management is an important business skill.,,資源管理是一項重要的經營技能。,資源,property; wealth,,resource 的名詞複數為 resources。,233,,3
+restore,verb,"Generally speaking, the stolen property must be restored to its owner.",,一般而言，贓物必須歸還原主。,回復；恢復；歸還,bring back; recover,,"restore 表恢復原狀或歸還；三態 restore, restored, restored。",234,,5
+restriction,noun,The sale of firearms is subject to many legal restrictions in China.,,在中國，出售槍枝受到許多法律的限制。,限制；約束,contraction; limit,freedom; permission,restrict 表限制，-ion 為名詞字尾。,234,,5
+resume,noun/verb,Jennifer is required to submit a resume firstly. Mrs. Hughes resumed her maiden name after the divorce.,,珍妮佛被要求先交一份履歷表。休斯太太離婚後恢復使用娘家姓。,摘要；概括；履歷；重新開始；繼續；恢復,continue,terminate,resume 可作名詞 résumé（履歷），也可作動詞表示恢復、繼續。,234,,5
+resuscitate,verb,"In this area, all attempts to resuscitate the fishing industry were foredoomed to failure.",,在這個地區，所有讓漁業復甦的嘗試都註定失敗。,使復活；使甦醒,resurrect; renew,,"resuscitate 指使恢復生機、復甦；三態 resuscitate, resuscitated, resuscitated。",234,,5
+retainer,noun,A politician should be a retainer of the people.,,政治家應是人民的公僕。,受託；公僕；侍從,servant,master,retainer 可指受雇服務者、侍從或長期受聘者。,234,,5
+retaliation,noun,Heaven's retaliation is slow but sure.,,天的報應雖慢，卻是一定會來的。,報復；反擊,vengeance,forgiveness,retaliation 指報復、反擊；retaliate 為動詞。,234,,5
+retreat,noun/verb,"Marvin likes to go to his mountain retreat for the weekend. As a friend, I will not retreat from my commitments.",,馬文週末喜歡去山中的休養所。作為朋友，我不會從我的承諾中退縮。,撤退；退卻；休養所,incline,access; advance,retreat 可作名詞表示休養所，也可作動詞表示撤退、退縮。,234,,5
+revenue,noun,"At present, oil revenue has risen with the rise in the dollar.",,目前石油收入因美元增值而增加。,收入；稅收,gain; income,expenditure,revenue 指收入、營收或稅收。,235,,3
+revile,verb,Mario's neighbors both loved and reviled him in the same breath.,,馬里奧的鄰居喜愛他的同時又辱罵他。,辱罵；斥責,vilify; vituperate,love; like,"revile 指以惡言辱罵、斥責；三態 revile, reviled, reviled。",235,,5
+rhetoric,noun,His speech contains impassioned rhetoric.,,他的演講含有熱情洋溢的修辭。,修辭學；浮誇的語言,eloquence,,rhetoric 除指修辭學，也可指華麗或浮誇的言辭。,235,,5
+risk,noun/verb,She was ready for any risks. The brave mother risked her life to save her child.,,她準備冒一切風險。那位勇敢的母親冒著生命危險去救她的孩子。,風險；危險；冒…的危險,peril; danger; chance; hazard,safety; protect,"risk 可作名詞或動詞；動詞三態 risk, risked, risked。",235,,5
+rocky,adjective,Juan drives carefully up the rocky lane.,,胡安小心地沿著石頭小巷開去。,岩石的；頑固的；不穩的,stony; rough,,rocky 的比較級為 rockier，最高級 rockiest。,235,,4
+ruin,noun/verb,476 AD saw the ruin of the Roman Empire. The hurricane ruined our holiday.,,公元四七六年羅馬帝國滅亡。颶風把我們的假期徹底搞毀了。,毀滅；廢墟；遺跡；（使）破產,ruination; destroy; demolish,recovery; restore,"ruin 可作名詞或動詞；動詞三態 ruin, ruined, ruined。",235,,5
+sacrifice,noun/verb,"Generally speaking, parents often make sacrifices for their children in China. The ancient Greeks sacrificed lambs or calves before engaging in battle.",,一般而言，中國的父母親常常為子女做出犧牲。古希臘人在戰前都要獻祭羔羊或小牛。,祭品；犧牲；犧牲；獻出；獻祭,forfeit; forfeiture; give; forego,,"sacrifice 可作名詞或動詞；三態 sacrifice, sacrificed, sacrificed。",235,236,5
+salary,noun,My money comes mainly from salary.,,我的錢主要來自工資。,工資；薪水,pay; wage,nonpayment,salary 指固定薪資、薪水。,236,,4
+sample,noun/verb,Please send me a sample copy of the book. The inspector sampled the stuff and found it satisfactory.,,請寄給我一本樣品書。那位檢驗員抽樣檢查這批材料，而且感到滿意。,範例；樣品；標本；抽取樣品,specimen; try; try out; taste,,"sample 可作名詞或動詞；三態 sample, sampled, sampled。",236,,5
+sanction,noun/verb,"Nowadays there is no sanction for autocracy. At this point, I can't sanction your methods.",,如今誰也不贊成獨裁統治。在這點上，我不會同意你的辦法。,批准；認可；制裁；處罰；同意,approval; support; permit; approve,disapproval; proscribe,"sanction 可指批准、認可，也可指制裁；動詞三態 sanction, sanctioned, sanctioned。",236,,4
+satellite,noun,The moon is the Earth's satellite.,,月球是地球的衛星。,衛星；人造衛星,spacecraft,,satellite 的名詞複數為 satellites。,236,,4
+saving,noun,"Generally speaking, saving is getting.",,一般而言，節約等於增加收入。,存款；節約,deposit,waste,saving 可表示存款或節約。,236,,4
+scoop,noun/verb,"After lunch, one of my colleagues likes to have two scoops of ice cream. Badgers scoop out a hole in the sand.",,午餐後，我的一位同事喜歡吃兩球冰淇淋。獾在沙地上挖了個洞。,鏟子；舀取；獨家新聞；汲取；挖掘,ladle; spoon; dig; pick up,,"scoop 可作名詞或動詞；三態 scoop, scooped, scooped。",236,,4
+scrutinize,verb,The jeweler scrutinized the diamond for flaws.,,那位寶石商仔細察看鑽石有無瑕疵。,細察；徹查,examine; explore,,"scrutinize 表仔細檢查、審視；三態 scrutinize, scrutinized, scrutinized。",237,,5
+secure,adjective/verb,I hope my boyfriend has made me feel secure. You had better secure all the doors and windows before leaving.,,我希望我的男友使我覺得安心。要把所有門窗關好再出門。,安全的；無慮的；使…安全；固定；獲得,protected; safe; acquire; get; fix,anxious; endanger; open,secure 可作形容詞表示安全的，也可作動詞表示確保、固定或取得。,237,,5
+seek,verb,Water seeks its own level.,,水能找到自己的水平。,尋求；尋找；搜索,search; look for,hide,"seek 為不規則動詞：seek, sought, sought。",237,,5
+seize,verb,"Generally speaking, people should seize each chance, otherwise they'll regret it.",,一般而言，人們應該抓住任何一個機會，否則就會後悔。,抓住；捉住,arrest; capture,escape; loose,"seize 表抓住、把握；動詞三態 seize, seized, seized。",237,,5
+senior,noun/adjective,Anita's boyfriend is her senior by six years. My father was a senior officer in the company.,,安尼塔的男朋友比她大六歲。他父親曾是那家公司的高級職員。,年長者；上司；年長的；高級的；資深的,elder; older,junior; younger,senior 可作名詞或形容詞，表示年長者、上司或資深的。,237,,4
+settle,verb,Nita cannot settle to work this afternoon.,,今天下午尼特無法定下心來工作。,安頓；安定；定居；決定,arrange; reside,unsettle,"settle 表安頓、定居、解決或使平靜；三態 settle, settled, settled。",237,,5
+sexism,noun,"At present, there is still a lot of subtle sexism on television and in magazines.",,如今在電視和雜誌上仍存在許多性別歧視的現象。,性別歧視,discrimination,,sex + ism，指以性別為基礎的歧視。,237,,4
+shareholder,noun,The shareholders ask for a general meeting.,,股東們要求召開一個股東大會。,股東,stockholder,,share 表股份，holder 表持有人，合起來即股東；複數 shareholders。,237,238,5
+shipment,noun,We think better to postpone the shipment than to cancel the contract.,,我們認為延期裝運比取消合約好。,裝運；載運的貨物,cargo; lading,,shipment 可指裝運行為或一批貨物。,238,,5
+showdown,noun,We have to force a showdown.,,我們得迫使對方攤牌。,攤牌,confrontation,,showdown 指決定性對決或攤牌。,238,,4
+shrug,noun/verb,"With a shrug, he went out of the room.",,他聳一下肩，走出房間。,聳肩,,,"shrug 可作名詞或動詞；動詞三態 shrug, shrugged, shrugged。",238,,5
+sidekick,noun,Ally has been Betty's sidekick since primary school.,,打從小學開始，艾麗和貝蒂一直就是好朋友。,夥伴；共犯,buddy; pal,,sidekick 指親近的夥伴、助手或同夥。,238,,5
+skeleton,noun,The shell of a snail is its skeleton.,,蝸牛的殼就是它的骨骼。,骨架；骨骼,frame; structure,,skeleton 的名詞複數為 skeletons。,238,,5
+skillful,adjective,Parker is a skillful football player.,,帕克是位熟練的足球員。,熟練的；擅長的,adept; expert,awkward; unskillful,skillful 的比較級 more skillful，最高級 most skillful。,238,,5
+skull,noun,Can't David get it into his thick skull that Betty likes him?,,大衛難道還不明白貝蒂喜歡他嗎？,頭蓋骨；骷髏,brain,,skull 的名詞複數為 skulls。,238,,5
+sluggish,adjective,There is a sluggish management team in our company.,,我們公司有一個管理遲鈍的團隊。,偷懶的；遲鈍的,dull; listless; inert,hardworking,sluggish 的比較級 more sluggish，最高級 most sluggish。,238,,5
+smolder,verb,Sophie's eyes smolder with jealousy.,,蘇菲的眼睛流露出妒忌的嫉妒目光。,無火焰地悶燒；壓抑,,,"smolder 表悶燒，也可比喻情緒暗中燃燒；動詞三態為 smolder, smoldered, smoldered。",239,,5
+soar,verb,A glider can soar for many miles.,,滑翔機可以滑行好多英里。,高飛；高漲；猛增,ascend; aspire; fly,,soar 表高飛，也可引申為價格、數字快速上升。,239,,3
+socialize,verb,"In our company, the cafe is a place where colleagues can socialize with each other.",,在我們公司，咖啡廳是同事們相互交流的地方。,參與社交；交際,civilize; entertain,capitalize,socialize 指與人交往、參與社交活動。,239,,4
+software,noun,Writing the software for a computer centre is my boyfriend's present job.,,為一家電腦中心寫軟體是我男友現在的工作。,軟體,soft system,hardware,soft + ware，指電腦程式與軟體系統。,239,,5
+solar,adjective,The solar cell can convert the energy of sunlight into electric energy.,,太陽能電池能把陽光的能量轉化為電能。,太陽的；日光的,,,solar 指太陽的、利用太陽能的。,239,,4
+sort,noun/verb,What sort of fish do you want? The manager asked Jenny to sort these apples by size.,,你要哪一種類的魚？經理要求珍妮按大小把這些蘋果分好。,種類；類別；分類；整理,kind; style; arrange; solve,disorder,"sort 可作名詞表示種類，也可作動詞表示分類、整理；三態 sort, sorted, sorted。",239,,5
+source,noun,The sun is the ultimate source of energy.,,太陽是能量的最基本來源。,來源,beginning; origin,effect; end,source 指來源、源頭；名詞複數為 sources。,239,,4
+spearhead,noun/verb,A spearhead of the airborne troops led the offensive. Our manager asked Hughes to spearhead the sales campaign.,,空降兵在那次進攻中打頭陣。我們經理要求休斯帶領促銷活動。,矛頭；先鋒部；做先鋒；帶頭,leader; troop; be the leader of,,spear + head，原指矛頭，引申為先鋒或帶頭領導。,239,,5
+species,noun,The giant panda has become an endangered species.,,大熊貓已成了一種瀕臨滅絕的物種。,物種；種類,kind; sort,,species 單複數同形，表示物種、種類。,239,240,5
+spectacular,adjective,The athlete made a spectacular jump in the swimming pool.,,那位運動員在游泳池裡做了一個驚人的跳躍。,驚人的；壯觀的,dramatic; striking,,spectacular 指非常壯觀、引人注目的。,240,,5
+spell,noun/verb,"Our colleagues are expecting a spell of sunshine. l-o-v-e spells ""love"".",,我們的同事們正盼望晴朗的一天。l-o-v-e 拼成「love」一字。,一段時間；拼寫；咒語；拼寫,period of time; spell out; write,,spell 可作名詞表示一段時間或咒語，也可作動詞表示拼寫。,240,,4
+spiritual,adjective,The Pope is the spiritual leader of many Christians.,,教皇是許多基督徒的精神領袖。,精神的；心靈的,religious,substantial,spiritual 指精神、心靈或宗教層面的。,240,,5
+sponsor,noun/verb,You cannot get a work visa without an American sponsor. The rich lady had offered to sponsor a poor boy at university.,,如果沒有一位美國保證人，你不能獲得工作簽證。那位富有的女士贊助那位窮男孩上大學。,保證人；擔保人；贊助者；贊助；資助,patron; supporter; back; patronize,,"sponsor 可作名詞或動詞；三態 sponsor, sponsored, sponsored。",240,,5
+sprain,noun/verb,"Peter thought his wrist might be broken, but it was just a bad sprain. The famous athlete's odds are very poor after he sprained his wrist.",,彼得以為他的手腕斷了，但其實只是嚴重的扭傷。那位著名的運動選手扭傷了手腕，獲勝的可能性極小。,扭傷,wrench; injury,,"sprain 可作名詞或動詞；三態 sprain, sprained, sprained。",240,,5
+stabilize,verb,Today the patient's condition has stabilized.,,今天那位病人的狀態穩定下來了。,使穩定；使穩固,brace; steady,,"stabilize 表使穩定、使穩固；三態 stabilize, stabilized, stabilized。",240,,4
