@@ -6,7 +6,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
-HEADER = ["word","part_of_speech","example","example_zh","chinese","synonyms","antonyms","memory_hint","page","page_end","difficulty"]
+HEADER = ["word","part_of_speech","example","corrected_example","example_zh","chinese","synonyms","antonyms","memory_hint","page","page_end","difficulty"]
+LEGACY_HEADER = ["word","part_of_speech","example","example_zh","chinese","synonyms","antonyms","memory_hint","page","page_end","difficulty"]
 CANON = re.compile(r"pages-(\d{3})-(\d{3})\.csv$")
 LEGACY = re.compile(r"vocabulary-pages-.*\.csv$")
 
@@ -18,25 +19,27 @@ def read_csv(path):
             header = next(r)
         except StopIteration:
             raise SystemExit(f"Empty CSV: {path}")
-        if header != HEADER:
+        if header not in (HEADER, LEGACY_HEADER):
             raise SystemExit(f"Bad header in {path}: {header}")
+        active_header = header
+        legacy_header = header == LEGACY_HEADER
 
         rows = []
         for i, values in enumerate(r, start=2):
-            if len(values) < len(HEADER):
-                raise SystemExit(f"Missing column in {path}:{i} ({len(values)} < {len(HEADER)})")
+            if len(values) < len(active_header):
+                raise SystemExit(f"Missing column in {path}:{i} ({len(values)} < {len(active_header)})")
 
             # Historical source files contain a few English examples with an
-            # unquoted comma. In that case csv.reader sees one or more extra
-            # fields. The eight fields after example are structurally fixed,
-            # so fold any surplus fields back into the example text. The CSV
-            # is then rewritten canonically by write_csv(), which adds the
-            # required quoting and prevents the same failure on later runs.
-            if len(values) > len(HEADER):
-                fixed_example = ",".join(values[2:-8])
-                values = values[:2] + [fixed_example] + values[-8:]
-                if len(values) != len(HEADER):
+            # unquoted comma. Fold any surplus fields back into example.
+            if len(values) > len(active_header):
+                tail_fields = len(active_header) - 3
+                fixed_example = ",".join(values[2:-tail_fields])
+                values = values[:2] + [fixed_example] + values[-tail_fields:]
+                if len(values) != len(active_header):
                     raise SystemExit(f"Unable to repair extra column in {path}:{i}")
+
+            if legacy_header:
+                values = values[:3] + [""] + values[3:]
 
             clean = dict(zip(HEADER, values))
             clean = {k: (clean.get(k) or "") for k in HEADER}
