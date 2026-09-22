@@ -63,14 +63,14 @@
     "data/pages-281-290.csv",
     "data/pages-291-300.csv"
   ],
-  "row_count_before": 2535,
-  "row_count_after": 2535,
-  "content_sha256_before": "026f5b3cb33021ff9c7e46b1850751caec02ac6ffdfde340515ef4c262defc1f",
-  "content_sha256_after": "026f5b3cb33021ff9c7e46b1850751caec02ac6ffdfde340515ef4c262defc1f",
+  "row_count_before": 2553,
+  "row_count_after": 2553,
+  "content_sha256_before": "e78983c17c72d6f2e7c8db62b0edf5d80698a73954300e3eeede91134c0676f3",
+  "content_sha256_after": "e78983c17c72d6f2e7c8db62b0edf5d80698a73954300e3eeede91134c0676f3",
   "field_level_content_identical": true,
   "same_page_duplicate_count": 0,
   "same_page_duplicates": [],
-  "cross_page_duplicate_count": 137,
+  "cross_page_duplicate_count": 141,
   "cross_page_duplicates": [
     {
       "word": "abbreviate",
@@ -530,10 +530,38 @@
       ]
     },
     {
+      "word": "defect",
+      "pages": [
+        190,
+        299
+      ]
+    },
+    {
       "word": "defy",
       "pages": [
         53,
         191
+      ]
+    },
+    {
+      "word": "deliberate",
+      "pages": [
+        191,
+        299
+      ]
+    },
+    {
+      "word": "density",
+      "pages": [
+        191,
+        300
+      ]
+    },
+    {
+      "word": "deplete",
+      "pages": [
+        192,
+        300
       ]
     },
     {
@@ -1034,8 +1062,8 @@
       ]
     }
   ],
-  "review_source_row_count": 2535,
-  "review_unique_word_count": 2396,
+  "review_source_row_count": 2553,
+  "review_unique_word_count": 2410,
   "review_duplicate_count": 0,
   "review_deduplication_ok": true,
   "per_page_counts": {
@@ -1323,6 +1351,8 @@
     "295": 8,
     "296": 10,
     "297": 8,
-    "298": 9
+    "298": 9,
+    "299": 9,
+    "300": 9
   }
 }
