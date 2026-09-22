@@ -29,7 +29,8 @@
     "data/pages-251-260.csv",
     "data/pages-261-270.csv",
     "data/pages-271-280.csv",
-    "data/pages-281-290.csv"
+    "data/pages-281-290.csv",
+    "data/pages-291-300.csv"
   ],
   "generated_files": [
     "data/pages-011-020.csv",
@@ -59,16 +60,17 @@
     "data/pages-251-260.csv",
     "data/pages-261-270.csv",
     "data/pages-271-280.csv",
-    "data/pages-281-290.csv"
+    "data/pages-281-290.csv",
+    "data/pages-291-300.csv"
   ],
-  "row_count_before": 2465,
-  "row_count_after": 2465,
-  "content_sha256_before": "f2d4a88cf6b1fe97288621032f3d52ab002585a0cd262ccf88b2716c8133045f",
-  "content_sha256_after": "f2d4a88cf6b1fe97288621032f3d52ab002585a0cd262ccf88b2716c8133045f",
+  "row_count_before": 2535,
+  "row_count_after": 2535,
+  "content_sha256_before": "026f5b3cb33021ff9c7e46b1850751caec02ac6ffdfde340515ef4c262defc1f",
+  "content_sha256_after": "026f5b3cb33021ff9c7e46b1850751caec02ac6ffdfde340515ef4c262defc1f",
   "field_level_content_identical": true,
   "same_page_duplicate_count": 0,
   "same_page_duplicates": [],
-  "cross_page_duplicate_count": 134,
+  "cross_page_duplicate_count": 137,
   "cross_page_duplicates": [
     {
       "word": "abbreviate",
@@ -465,6 +467,13 @@
       ]
     },
     {
+      "word": "convict",
+      "pages": [
+        185,
+        293
+      ]
+    },
+    {
       "word": "copyright",
       "pages": [
         47,
@@ -476,6 +485,13 @@
       "pages": [
         48,
         186
+      ]
+    },
+    {
+      "word": "crackdown",
+      "pages": [
+        187,
+        295
       ]
     },
     {
@@ -504,6 +520,13 @@
       "pages": [
         52,
         189
+      ]
+    },
+    {
+      "word": "deduct",
+      "pages": [
+        190,
+        298
       ]
     },
     {
@@ -1011,8 +1034,8 @@
       ]
     }
   ],
-  "review_source_row_count": 2465,
-  "review_unique_word_count": 2329,
+  "review_source_row_count": 2535,
+  "review_unique_word_count": 2396,
   "review_duplicate_count": 0,
   "review_deduplication_ok": true,
   "per_page_counts": {
@@ -1292,6 +1315,14 @@
     "287": 9,
     "288": 8,
     "289": 8,
-    "290": 9
+    "290": 9,
+    "291": 9,
+    "292": 8,
+    "293": 9,
+    "294": 9,
+    "295": 8,
+    "296": 10,
+    "297": 8,
+    "298": 9
   }
 }
