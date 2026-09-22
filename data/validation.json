@@ -61,14 +61,14 @@
     "data/pages-271-280.csv",
     "data/pages-281-290.csv"
   ],
-  "row_count_before": 2456,
-  "row_count_after": 2456,
-  "content_sha256_before": "93d5ca8132289a5632d0a451d8902591bb5953b70b6b0ba58f92c9f496f0d0ef",
-  "content_sha256_after": "93d5ca8132289a5632d0a451d8902591bb5953b70b6b0ba58f92c9f496f0d0ef",
+  "row_count_before": 2465,
+  "row_count_after": 2465,
+  "content_sha256_before": "f2d4a88cf6b1fe97288621032f3d52ab002585a0cd262ccf88b2716c8133045f",
+  "content_sha256_after": "f2d4a88cf6b1fe97288621032f3d52ab002585a0cd262ccf88b2716c8133045f",
   "field_level_content_identical": true,
   "same_page_duplicate_count": 0,
   "same_page_duplicates": [],
-  "cross_page_duplicate_count": 132,
+  "cross_page_duplicate_count": 134,
   "cross_page_duplicates": [
     {
       "word": "abbreviate",
@@ -423,10 +423,24 @@
       ]
     },
     {
+      "word": "confer",
+      "pages": [
+        182,
+        290
+      ]
+    },
+    {
       "word": "confidential",
       "pages": [
         43,
         183
+      ]
+    },
+    {
+      "word": "consensus",
+      "pages": [
+        183,
+        290
       ]
     },
     {
@@ -997,8 +1011,8 @@
       ]
     }
   ],
-  "review_source_row_count": 2456,
-  "review_unique_word_count": 2322,
+  "review_source_row_count": 2465,
+  "review_unique_word_count": 2329,
   "review_duplicate_count": 0,
   "review_deduplication_ok": true,
   "per_page_counts": {
@@ -1277,6 +1291,7 @@
     "286": 9,
     "287": 9,
     "288": 8,
-    "289": 8
+    "289": 8,
+    "290": 9
   }
 }
