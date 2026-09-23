@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "total_words": 2930,
+  "total_words": 3023,
   "first_page": 12,
-  "last_page": 342,
+  "last_page": 352,
   "pages": [
     12,
     13,
@@ -332,7 +332,17 @@
     339,
     340,
     341,
-    342
+    342,
+    343,
+    344,
+    345,
+    346,
+    347,
+    348,
+    349,
+    350,
+    351,
+    352
   ],
   "ranges": [
     {
@@ -966,10 +976,29 @@
       "file": "data/pages-341-350.csv",
       "pages": [
         341,
-        342
+        342,
+        343,
+        344,
+        345,
+        346,
+        347,
+        348,
+        349,
+        350
+      ],
+      "count": 93
+    },
+    {
+      "label": "351-360",
+      "start": 351,
+      "end": 360,
+      "file": "data/pages-351-360.csv",
+      "pages": [
+        351,
+        352
       ],
       "count": 19
     }
   ],
-  "content_sha256": "7445202719cfe6cdb1ee82eed7ac180c83f419398619c87f068ce3a47fe7fd24"
+  "content_sha256": "3b43eb0f949a1f87189b12f17f0688a4d837aa12ef744da74d8d84ac7f8764a1"
 }

@@ -35,7 +35,8 @@
     "data/pages-311-320.csv",
     "data/pages-321-330.csv",
     "data/pages-331-340.csv",
-    "data/pages-341-350.csv"
+    "data/pages-341-350.csv",
+    "data/pages-351-360.csv"
   ],
   "generated_files": [
     "data/pages-011-020.csv",
@@ -71,16 +72,17 @@
     "data/pages-311-320.csv",
     "data/pages-321-330.csv",
     "data/pages-331-340.csv",
-    "data/pages-341-350.csv"
+    "data/pages-341-350.csv",
+    "data/pages-351-360.csv"
   ],
-  "row_count_before": 2930,
-  "row_count_after": 2930,
-  "content_sha256_before": "7445202719cfe6cdb1ee82eed7ac180c83f419398619c87f068ce3a47fe7fd24",
-  "content_sha256_after": "7445202719cfe6cdb1ee82eed7ac180c83f419398619c87f068ce3a47fe7fd24",
+  "row_count_before": 3023,
+  "row_count_after": 3023,
+  "content_sha256_before": "3b43eb0f949a1f87189b12f17f0688a4d837aa12ef744da74d8d84ac7f8764a1",
+  "content_sha256_after": "3b43eb0f949a1f87189b12f17f0688a4d837aa12ef744da74d8d84ac7f8764a1",
   "field_level_content_identical": true,
   "same_page_duplicate_count": 0,
   "same_page_duplicates": [],
-  "cross_page_duplicate_count": 167,
+  "cross_page_duplicate_count": 170,
   "cross_page_duplicates": [
     {
       "word": "abbreviate",
@@ -1023,6 +1025,13 @@
       ]
     },
     {
+      "word": "monopoly",
+      "pages": [
+        218,
+        346
+      ]
+    },
+    {
       "word": "motive",
       "pages": [
         100,
@@ -1037,6 +1046,13 @@
       ]
     },
     {
+      "word": "municipal",
+      "pages": [
+        218,
+        348
+      ]
+    },
+    {
       "word": "nomination",
       "pages": [
         103,
@@ -1048,6 +1064,13 @@
       "pages": [
         104,
         219
+      ]
+    },
+    {
+      "word": "offset",
+      "pages": [
+        220,
+        351
       ]
     },
     {
@@ -1254,8 +1277,8 @@
       ]
     }
   ],
-  "review_source_row_count": 2930,
-  "review_unique_word_count": 2761,
+  "review_source_row_count": 3023,
+  "review_unique_word_count": 2851,
   "review_duplicate_count": 0,
   "review_deduplication_ok": true,
   "per_page_counts": {
@@ -1587,6 +1610,16 @@
     "339": 9,
     "340": 10,
     "341": 10,
-    "342": 9
+    "342": 9,
+    "343": 9,
+    "344": 10,
+    "345": 9,
+    "346": 9,
+    "347": 10,
+    "348": 9,
+    "349": 10,
+    "350": 8,
+    "351": 10,
+    "352": 9
   }
 }
