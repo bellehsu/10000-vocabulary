@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "total_words": 2822,
+  "total_words": 2911,
   "first_page": 12,
-  "last_page": 330,
+  "last_page": 340,
   "pages": [
     12,
     13,
@@ -320,7 +320,17 @@
     327,
     328,
     329,
-    330
+    330,
+    331,
+    332,
+    333,
+    334,
+    335,
+    336,
+    337,
+    338,
+    339,
+    340
   ],
   "ranges": [
     {
@@ -927,7 +937,26 @@
         330
       ],
       "count": 92
+    },
+    {
+      "label": "331-340",
+      "start": 331,
+      "end": 340,
+      "file": "data/pages-331-340.csv",
+      "pages": [
+        331,
+        332,
+        333,
+        334,
+        335,
+        336,
+        337,
+        338,
+        339,
+        340
+      ],
+      "count": 89
     }
   ],
-  "content_sha256": "24b8f3d3368ccc69cef85a510ad7f51af8b2f564a79a64fc02a85d6f7f3f1163"
+  "content_sha256": "efb368c26b48d62166599258aa97d4258ce75bb3f77a7a6cdb2dd74e4b995b73"
 }

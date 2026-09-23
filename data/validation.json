@@ -33,7 +33,8 @@
     "data/pages-291-300.csv",
     "data/pages-301-310.csv",
     "data/pages-311-320.csv",
-    "data/pages-321-330.csv"
+    "data/pages-321-330.csv",
+    "data/pages-331-340.csv"
   ],
   "generated_files": [
     "data/pages-011-020.csv",
@@ -67,16 +68,17 @@
     "data/pages-291-300.csv",
     "data/pages-301-310.csv",
     "data/pages-311-320.csv",
-    "data/pages-321-330.csv"
+    "data/pages-321-330.csv",
+    "data/pages-331-340.csv"
   ],
-  "row_count_before": 2822,
-  "row_count_after": 2822,
-  "content_sha256_before": "24b8f3d3368ccc69cef85a510ad7f51af8b2f564a79a64fc02a85d6f7f3f1163",
-  "content_sha256_after": "24b8f3d3368ccc69cef85a510ad7f51af8b2f564a79a64fc02a85d6f7f3f1163",
+  "row_count_before": 2911,
+  "row_count_after": 2911,
+  "content_sha256_before": "efb368c26b48d62166599258aa97d4258ce75bb3f77a7a6cdb2dd74e4b995b73",
+  "content_sha256_after": "efb368c26b48d62166599258aa97d4258ce75bb3f77a7a6cdb2dd74e4b995b73",
   "field_level_content_identical": true,
   "same_page_duplicate_count": 0,
   "same_page_duplicates": [],
-  "cross_page_duplicate_count": 161,
+  "cross_page_duplicate_count": 166,
   "cross_page_duplicates": [
     {
       "word": "abbreviate",
@@ -886,10 +888,24 @@
       ]
     },
     {
+      "word": "inertia",
+      "pages": [
+        210,
+        332
+      ]
+    },
+    {
       "word": "infrastructure",
       "pages": [
         85,
         210
+      ]
+    },
+    {
+      "word": "inhibit",
+      "pages": [
+        211,
+        332
       ]
     },
     {
@@ -900,10 +916,24 @@
       ]
     },
     {
+      "word": "insulate",
+      "pages": [
+        211,
+        334
+      ]
+    },
+    {
       "word": "insure",
       "pages": [
         87,
         211
+      ]
+    },
+    {
+      "word": "intrinsic",
+      "pages": [
+        212,
+        335
       ]
     },
     {
@@ -932,6 +962,13 @@
       "pages": [
         92,
         214
+      ]
+    },
+    {
+      "word": "legitimate",
+      "pages": [
+        214,
+        339
       ]
     },
     {
@@ -1208,8 +1245,8 @@
       ]
     }
   ],
-  "review_source_row_count": 2822,
-  "review_unique_word_count": 2659,
+  "review_source_row_count": 2911,
+  "review_unique_word_count": 2743,
   "review_duplicate_count": 0,
   "review_deduplication_ok": true,
   "per_page_counts": {
@@ -1529,6 +1566,16 @@
     "327": 10,
     "328": 10,
     "329": 9,
-    "330": 9
+    "330": 9,
+    "331": 8,
+    "332": 9,
+    "333": 9,
+    "334": 9,
+    "335": 9,
+    "336": 9,
+    "337": 8,
+    "338": 9,
+    "339": 9,
+    "340": 10
   }
 }
