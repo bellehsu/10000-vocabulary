@@ -31,7 +31,8 @@
     "data/pages-271-280.csv",
     "data/pages-281-290.csv",
     "data/pages-291-300.csv",
-    "data/pages-301-310.csv"
+    "data/pages-301-310.csv",
+    "data/pages-311-320.csv"
   ],
   "generated_files": [
     "data/pages-011-020.csv",
@@ -63,16 +64,17 @@
     "data/pages-271-280.csv",
     "data/pages-281-290.csv",
     "data/pages-291-300.csv",
-    "data/pages-301-310.csv"
+    "data/pages-301-310.csv",
+    "data/pages-311-320.csv"
   ],
-  "row_count_before": 2641,
-  "row_count_after": 2641,
-  "content_sha256_before": "480ebb8d3cfe0b9cc1084c8c7c2301857a95488e0e1bf0c4f5f225ae7661c81e",
-  "content_sha256_after": "480ebb8d3cfe0b9cc1084c8c7c2301857a95488e0e1bf0c4f5f225ae7661c81e",
+  "row_count_before": 2730,
+  "row_count_after": 2730,
+  "content_sha256_before": "f89e04dee732b747af3014d2c0487947c18be8c7da9fb761fdaa8a6fa2c9c9a4",
+  "content_sha256_after": "f89e04dee732b747af3014d2c0487947c18be8c7da9fb761fdaa8a6fa2c9c9a4",
   "field_level_content_identical": true,
   "same_page_duplicate_count": 0,
   "same_page_duplicates": [],
-  "cross_page_duplicate_count": 148,
+  "cross_page_duplicate_count": 157,
   "cross_page_duplicates": [
     {
       "word": "abbreviate",
@@ -672,10 +674,31 @@
       ]
     },
     {
+      "word": "energize",
+      "pages": [
+        199,
+        311
+      ]
+    },
+    {
       "word": "enforcement",
       "pages": [
         64,
         199
+      ]
+    },
+    {
+      "word": "epidemic",
+      "pages": [
+        199,
+        312
+      ]
+    },
+    {
+      "word": "equilibrium",
+      "pages": [
+        200,
+        312
       ]
     },
     {
@@ -700,10 +723,38 @@
       ]
     },
     {
+      "word": "extradite",
+      "pages": [
+        202,
+        315
+      ]
+    },
+    {
+      "word": "extravagant",
+      "pages": [
+        202,
+        315
+      ]
+    },
+    {
+      "word": "fabricate",
+      "pages": [
+        202,
+        316
+      ]
+    },
+    {
       "word": "famine",
       "pages": [
         70,
         202
+      ]
+    },
+    {
+      "word": "fascination",
+      "pages": [
+        70,
+        316
       ]
     },
     {
@@ -721,10 +772,24 @@
       ]
     },
     {
+      "word": "flounder",
+      "pages": [
+        203,
+        318
+      ]
+    },
+    {
       "word": "forthcoming",
       "pages": [
         73,
         204
+      ]
+    },
+    {
+      "word": "franchise",
+      "pages": [
+        204,
+        320
       ]
     },
     {
@@ -1113,8 +1178,8 @@
       ]
     }
   ],
-  "review_source_row_count": 2641,
-  "review_unique_word_count": 2491,
+  "review_source_row_count": 2730,
+  "review_unique_word_count": 2571,
   "review_duplicate_count": 0,
   "review_deduplication_ok": true,
   "per_page_counts": {
@@ -1414,6 +1479,16 @@
     "307": 9,
     "308": 9,
     "309": 9,
-    "310": 8
+    "310": 8,
+    "311": 8,
+    "312": 9,
+    "313": 9,
+    "314": 9,
+    "315": 8,
+    "316": 9,
+    "317": 9,
+    "318": 9,
+    "319": 9,
+    "320": 10
   }
 }
