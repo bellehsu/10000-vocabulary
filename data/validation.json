@@ -65,14 +65,14 @@
     "data/pages-291-300.csv",
     "data/pages-301-310.csv"
   ],
-  "row_count_before": 2615,
-  "row_count_after": 2615,
-  "content_sha256_before": "ca1e269bc467d14ac1fc9a27d1b059414ff33ab9038513616dd3e291de0abd38",
-  "content_sha256_after": "ca1e269bc467d14ac1fc9a27d1b059414ff33ab9038513616dd3e291de0abd38",
+  "row_count_before": 2641,
+  "row_count_after": 2641,
+  "content_sha256_before": "480ebb8d3cfe0b9cc1084c8c7c2301857a95488e0e1bf0c4f5f225ae7661c81e",
+  "content_sha256_after": "480ebb8d3cfe0b9cc1084c8c7c2301857a95488e0e1bf0c4f5f225ae7661c81e",
   "field_level_content_identical": true,
   "same_page_duplicate_count": 0,
   "same_page_duplicates": [],
-  "cross_page_duplicate_count": 145,
+  "cross_page_duplicate_count": 148,
   "cross_page_duplicates": [
     {
       "word": "abbreviate",
@@ -651,6 +651,27 @@
       ]
     },
     {
+      "word": "eclipse",
+      "pages": [
+        197,
+        308
+      ]
+    },
+    {
+      "word": "elite",
+      "pages": [
+        198,
+        310
+      ]
+    },
+    {
+      "word": "embargo",
+      "pages": [
+        198,
+        310
+      ]
+    },
+    {
       "word": "enforcement",
       "pages": [
         64,
@@ -1092,8 +1113,8 @@
       ]
     }
   ],
-  "review_source_row_count": 2615,
-  "review_unique_word_count": 2468,
+  "review_source_row_count": 2641,
+  "review_unique_word_count": 2491,
   "review_duplicate_count": 0,
   "review_deduplication_ok": true,
   "per_page_counts": {
@@ -1390,6 +1411,9 @@
     "304": 9,
     "305": 9,
     "306": 8,
-    "307": 9
+    "307": 9,
+    "308": 9,
+    "309": 9,
+    "310": 8
   }
 }
