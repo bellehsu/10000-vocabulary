@@ -34,7 +34,8 @@
     "data/pages-301-310.csv",
     "data/pages-311-320.csv",
     "data/pages-321-330.csv",
-    "data/pages-331-340.csv"
+    "data/pages-331-340.csv",
+    "data/pages-341-350.csv"
   ],
   "generated_files": [
     "data/pages-011-020.csv",
@@ -69,16 +70,17 @@
     "data/pages-301-310.csv",
     "data/pages-311-320.csv",
     "data/pages-321-330.csv",
-    "data/pages-331-340.csv"
+    "data/pages-331-340.csv",
+    "data/pages-341-350.csv"
   ],
-  "row_count_before": 2911,
-  "row_count_after": 2911,
-  "content_sha256_before": "efb368c26b48d62166599258aa97d4258ce75bb3f77a7a6cdb2dd74e4b995b73",
-  "content_sha256_after": "efb368c26b48d62166599258aa97d4258ce75bb3f77a7a6cdb2dd74e4b995b73",
+  "row_count_before": 2930,
+  "row_count_after": 2930,
+  "content_sha256_before": "7445202719cfe6cdb1ee82eed7ac180c83f419398619c87f068ce3a47fe7fd24",
+  "content_sha256_after": "7445202719cfe6cdb1ee82eed7ac180c83f419398619c87f068ce3a47fe7fd24",
   "field_level_content_identical": true,
   "same_page_duplicate_count": 0,
   "same_page_duplicates": [],
-  "cross_page_duplicate_count": 166,
+  "cross_page_duplicate_count": 167,
   "cross_page_duplicates": [
     {
       "word": "abbreviate",
@@ -986,6 +988,13 @@
       ]
     },
     {
+      "word": "lucrative",
+      "pages": [
+        215,
+        341
+      ]
+    },
+    {
       "word": "mainstream",
       "pages": [
         95,
@@ -1245,8 +1254,8 @@
       ]
     }
   ],
-  "review_source_row_count": 2911,
-  "review_unique_word_count": 2743,
+  "review_source_row_count": 2930,
+  "review_unique_word_count": 2761,
   "review_duplicate_count": 0,
   "review_deduplication_ok": true,
   "per_page_counts": {
@@ -1576,6 +1585,8 @@
     "337": 8,
     "338": 9,
     "339": 9,
-    "340": 10
+    "340": 10,
+    "341": 10,
+    "342": 9
   }
 }
