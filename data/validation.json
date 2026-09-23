@@ -32,7 +32,8 @@
     "data/pages-281-290.csv",
     "data/pages-291-300.csv",
     "data/pages-301-310.csv",
-    "data/pages-311-320.csv"
+    "data/pages-311-320.csv",
+    "data/pages-321-330.csv"
   ],
   "generated_files": [
     "data/pages-011-020.csv",
@@ -65,16 +66,17 @@
     "data/pages-281-290.csv",
     "data/pages-291-300.csv",
     "data/pages-301-310.csv",
-    "data/pages-311-320.csv"
+    "data/pages-311-320.csv",
+    "data/pages-321-330.csv"
   ],
-  "row_count_before": 2730,
-  "row_count_after": 2730,
-  "content_sha256_before": "f89e04dee732b747af3014d2c0487947c18be8c7da9fb761fdaa8a6fa2c9c9a4",
-  "content_sha256_after": "f89e04dee732b747af3014d2c0487947c18be8c7da9fb761fdaa8a6fa2c9c9a4",
+  "row_count_before": 2822,
+  "row_count_after": 2822,
+  "content_sha256_before": "24b8f3d3368ccc69cef85a510ad7f51af8b2f564a79a64fc02a85d6f7f3f1163",
+  "content_sha256_after": "24b8f3d3368ccc69cef85a510ad7f51af8b2f564a79a64fc02a85d6f7f3f1163",
   "field_level_content_identical": true,
   "same_page_duplicate_count": 0,
   "same_page_duplicates": [],
-  "cross_page_duplicate_count": 157,
+  "cross_page_duplicate_count": 161,
   "cross_page_duplicates": [
     {
       "word": "abbreviate",
@@ -842,10 +844,38 @@
       ]
     },
     {
+      "word": "homosexual",
+      "pages": [
+        208,
+        327
+      ]
+    },
+    {
       "word": "hopeless",
       "pages": [
         81,
         208
+      ]
+    },
+    {
+      "word": "hormone",
+      "pages": [
+        208,
+        328
+      ]
+    },
+    {
+      "word": "imminent",
+      "pages": [
+        209,
+        329
+      ]
+    },
+    {
+      "word": "impair",
+      "pages": [
+        209,
+        330
       ]
     },
     {
@@ -1178,8 +1208,8 @@
       ]
     }
   ],
-  "review_source_row_count": 2730,
-  "review_unique_word_count": 2571,
+  "review_source_row_count": 2822,
+  "review_unique_word_count": 2659,
   "review_duplicate_count": 0,
   "review_deduplication_ok": true,
   "per_page_counts": {
@@ -1489,6 +1519,16 @@
     "317": 9,
     "318": 9,
     "319": 9,
-    "320": 10
+    "320": 10,
+    "321": 8,
+    "322": 9,
+    "323": 10,
+    "324": 9,
+    "325": 9,
+    "326": 9,
+    "327": 10,
+    "328": 10,
+    "329": 9,
+    "330": 9
   }
 }
